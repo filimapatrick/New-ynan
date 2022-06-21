@@ -46,6 +46,7 @@ p{
         <h1>Become a member of WIN Nigeria</h1>
         <h4>JOIN OUR NETWORK </h4>
         <p>Start your registration process here. Click the button to go to our membership form.</p>
+        <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
     </div>
     
     <div className="right-image">

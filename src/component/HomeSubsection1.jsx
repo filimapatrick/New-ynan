@@ -63,6 +63,7 @@ padding-top:2rem;
     <div class="text">
         <h4> Mentorship and growth</h4>
         <p> Learn from other established professionals and receive guidance to further your career goals.</p>
+        
     </div>
   </div>
 </div>

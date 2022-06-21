@@ -47,6 +47,7 @@ p{
     <p> Women are underrepresented and less engaged in STEM disciplines. We need more women on the table to bridge gender inequality.
 
 To this effect, there is a need for a formal and impact-oriented structure that provides much needed guidance for budding female neuroscientists.</p>
+<a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
 </div>
 
 <div className="right-image">

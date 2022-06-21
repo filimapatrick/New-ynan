@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function HomeAbout() {
     const HomeAbout = styled.div ` 
-    background-color:green;
+   
     margin-top:-34.9rem;
     padding:2rem;
     height:20rem;

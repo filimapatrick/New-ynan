@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import SecondaryButton from './SecondaryButton';
 
 
 function HeroSection() {
@@ -59,7 +60,8 @@ h1,h4{
     <h4>Welcome To</h4>
     <h1>Youth Neuroscience Association Of Nigeria</h1>
     <p>Setting The Pace In Nigeria</p>
-    <button>Empowering Youth</button>
+    {/* <button>Empowering Youth</button> */}
+    <SecondaryButton/>
   
   </div>
 </div>

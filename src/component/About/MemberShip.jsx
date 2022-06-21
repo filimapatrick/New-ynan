@@ -68,6 +68,7 @@ Find a list of previous awards here.
 <h2>Awards</h2>
 <hr/>
 <p>Our membership spans from eminent & very well established neuroscientists to undergraduate students who are starting to develop their interest in neuroscience. We have an inclusive policy and would encourage any person with a prerequisite and professional interest in Neuroscience to become a member of WIN Nigeria</p>
+  
   </div>
 
       </div>

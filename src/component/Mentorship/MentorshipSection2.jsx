@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import A1 from '../../image/Lecturers/Lekpa.jpg';
+import AnimatedButton from '../AnimatedButton';
 
 function MentorshipSection2() {
 
@@ -44,6 +45,7 @@ p{
 
     <div className="left-text">
         <h1>WIN Mentors Transforms Your Vision into Creative Results</h1>
+        <AnimatedButton/>
         {/* <h4>JOIN OUR NETWORK </h4>
         <p>Start your registration process here. Click the button to go to our membership form.</p> */}
     </div>

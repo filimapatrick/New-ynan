@@ -47,16 +47,21 @@ function AboutStory() {
           <div class="col-lg-6 col-md-12">
             <div class="feature-right" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               {/* <!-- Feature List --> */}
+              <h6 class="section-title__sub-heading" data-aos="fade-up" data-aos-duration="500" data-aos-once="true" style={{color:'green'}}>Our Mission</h6>
               <ul class="feature-content--l3__list list-unstyled">
                 <li>Reinforce the relevance of Neuroscience and practice to students.</li>
                 <li>Encourage participation in outreaches and creating awareness on neurological conditions.</li>
                 <li>Allow students to cultivate their interest in Neuroscience in an informal environment. </li>
 
-               
+                <li>Reinforce the relevance of Neuroscience and practice to students.</li>
+                <li>Encourage participation in outreaches and creating awareness on neurological conditions.</li>
+                <li>Allow students to cultivate their interest in Neuroscience in an informal environment. </li>
+                <li>Encourage participation in outreaches and creating awareness on neurological conditions.</li>
+                <li>Allow students to cultivate their interest in Neuroscience in an informal environment. </li>
               </ul>
               {/* <!--/ .Feature List --> */}
               {/* <!--Counter Bar --> */}
-              <div class="feature-counter feature-counter--l3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
+              {/* <div class="feature-counter feature-counter--l3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
                 <div class="counter-widgets dark-mode-texts">
                   <div class="counter-widgets__single counter-content">
                     <h2 class="counter-content__heading">+<span class="counter">10,000</span></h2>
@@ -71,7 +76,7 @@ function AboutStory() {
                     <p class="counter-content__text">Users Comments</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
               {/* <!--/ .Counter Bar --> */}
             </div>
           </div>
