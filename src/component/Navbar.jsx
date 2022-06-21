@@ -191,7 +191,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/mentorship"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}

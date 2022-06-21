@@ -4,7 +4,7 @@ import A1 from '../image/Lecturers/Lekpa.jpg';
 
 
 
-function HomeSubsection3() {
+function HomeSubsection5() {
     const HomeSubsection3Style = styled.div ` 
     
     display: flex;
@@ -43,10 +43,9 @@ p{
     <HomeSubsection3Style>
 
 <div className="left-text">
-    <h1>Welcome To</h1>
-    <p> Women are underrepresented and less engaged in STEM disciplines. We need more women on the table to bridge gender inequality.
-
-To this effect, there is a need for a formal and impact-oriented structure that provides much needed guidance for budding female neuroscientists.</p>
+    <h1>Become a member of WIN Nigeria</h1>
+    <h4>JOIN OUR NETWORK </h4>
+    <p>Start your registration process here. Click the button to go to our membership form.</p>
 </div>
 
 <div className="right-image">
@@ -59,4 +58,4 @@ To this effect, there is a need for a formal and impact-oriented structure that 
   )
 }
 
-export default HomeSubsection3
+export default HomeSubsection5

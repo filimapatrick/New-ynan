@@ -2,18 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-function HeroSection() {
-    const HeroSection = styled.div ` 
+function AboutHero() {
+    const AboutHero = styled.div ` 
 height: 70rem;
   margin-top: 5rem;
   font-family: Arial, Helvetica, sans-serif;
 
   .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./7Saf.gif");
-  height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./About.jpg");
+  height: 35rem;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   position: relative;
 }
 
@@ -47,25 +47,24 @@ height: 70rem;
   background-color: #555;
   color: white;
 }
-h1,h4{
+h1{
     color:white;
 }
     `
   return (
-    <HeroSection>
+    <AboutHero>
 
 <div className="hero-image">
   <div className="hero-text">
-    <h4>Welcome To</h4>
-    <h1>Youth Neuroscience Association Of Nigeria</h1>
-    <p>Setting The Pace In Nigeria</p>
+    <h1>About Us</h1>
+    <p>YNAN is an association that provides a platform for interaction,innovation,creativity and career opportunities to explore into areas related to the nervous system,especially the Brain.</p>
     <button>Empowering Youth</button>
   
   </div>
 </div>
 
-    </HeroSection>
+    </AboutHero>
   )
 }
 
-export default HeroSection
+export default AboutHero

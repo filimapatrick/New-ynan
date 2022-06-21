@@ -10,9 +10,9 @@ function HomeSubsection2() {
     
 
 .left-image{
-    width:20rem;
+    width:28rem;
     height:32rem;
-    padding-top:5rem;
+    padding-top:3rem;
     padding-bottom:5rem;
 }
 
