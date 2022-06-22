@@ -3,11 +3,10 @@ import styled from 'styled-components';
 import {MdOutlineGrass,MdOutlineSportsKabaddi,MdOutlineLightbulb } from 'react-icons/md';
 
 
-function MentorshipSection3() {
+function MentorshipSection6() {
     const Mentorship = styled.div` 
-      background-color:rgb(243,244,246);
-      padding-top:4rem;
-      padding-bottom:4rem;
+    background-color:rgb(243,244,246);
+    padding-bottom:3rem;
     .wrapper{
         flex-wrap:wrap;
         display:flex;
@@ -25,11 +24,18 @@ function MentorshipSection3() {
     }
 
     .logo{
-        padding-bottom:2rem;
+        padding:2rem;
         align-self:center;
-        display: inline-block;
-    width: 100%;
+        display: flex;
+    width: 10rem;
     text-align:center;
+    border-radius:10rem;
+    border:5px solid gray;
+    justify-content:center;
+    margin-left:7rem;
+    margin-bottom:4rem;
+    color:gray;
+
     }
 
     .title,p{
@@ -46,21 +52,21 @@ function MentorshipSection3() {
     <Mentorship>
 <div className='wrapper'>
     <div className='container'>
-      <div className='logo' ><MdOutlineGrass size={50}/> </div>
+      <div className='logo' ><MdOutlineGrass size={80}/> </div>
       <div className='title'>Nuture</div>
       <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
     </div>
 
 
     <div className='container'>
-      <div className='logo' ><MdOutlineSportsKabaddi size={50}/> </div>
+      <div className='logo' ><MdOutlineSportsKabaddi size={80}/> </div>
       <div className='title'>Network</div>
       <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
     </div>
 
 
     <div className='container'>
-      <div className='logo' ><MdOutlineLightbulb size={50}/></div>
+      <div className='logo' ><MdOutlineLightbulb size={80}/></div>
       <div className='title'>Inspiration</div>
       <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
     </div>
@@ -72,4 +78,4 @@ function MentorshipSection3() {
   )
 }
 
-export default MentorshipSection3
+export default MentorshipSection6

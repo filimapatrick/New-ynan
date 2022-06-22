@@ -53,6 +53,7 @@ function ImageSlider() {
     const AboutSlider = styled.div ` 
     
   padding-top:3rem;
+  padding-bottom:6rem;
   .slider_title {
     font-size: 3vw;
     color: black;

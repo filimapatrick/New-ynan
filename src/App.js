@@ -4,6 +4,8 @@ import AboutPage from './Pages/AboutPage';
 import HomePage from './Pages/HomePage';
 import MentorshipPage from './Pages/MentorshipPage';
 import {Routes,Route} from 'react-router-dom'
+import InvolvePage from './Pages/InvolvePage';
+import GalleryPage from './Pages/GalleryPage';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Route path="/" element={<HomePage/>}/>
       <Route path="/about" element={<AboutPage/>}/>
       <Route path="/mentorship" element={<MentorshipPage/>}/>
+      <Route path="/involved" element={<InvolvePage/>}/>
+      <Route path="/gallery" element={<GalleryPage/>}/>
     </Routes>
     </div>
   );
