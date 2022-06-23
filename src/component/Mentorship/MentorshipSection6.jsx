@@ -43,9 +43,23 @@ function MentorshipSection6() {
     }
 
     .title{
-        font-weight:500;
+       
         padding-bottom:1rem;
+        color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
     }
+
+    .light-header{
+  padding-bottom:2rem;
+  color:#aaaaaa;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+}
     
     `
   return (
@@ -54,21 +68,23 @@ function MentorshipSection6() {
     <div className='container'>
       <div className='logo' ><MdOutlineGrass size={80}/> </div>
       <div className='title'>Nuture</div>
-      <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
+      <p className='light-header'>Teamwork makes the dream work, and together we achieve more. . . because women of equality support each other</p>
     </div>
 
 
     <div className='container'>
       <div className='logo' ><MdOutlineSportsKabaddi size={80}/> </div>
       <div className='title'>Network</div>
-      <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
+      <p className='light-header'> Behind every successful woman is a tribe of other successful women who have her back</p>
     </div>
 
 
     <div className='container'>
       <div className='logo' ><MdOutlineLightbulb size={80}/></div>
       <div className='title'>Inspiration</div>
-      <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
+      <p className='light-header'> Join this powerful women to rock the world of neuroscience and make a difference!
+
+</p>
     </div>
 
 

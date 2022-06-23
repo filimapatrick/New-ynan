@@ -5,7 +5,10 @@ import AnimatedButton from '../AnimatedButton';
 function MentorshipSection5() {
     const MentorshipSection5 = styled.div` 
     height:30rem;
-    /* background-color:gray; */
+
+  background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+;
    
 
 
@@ -18,10 +21,20 @@ function MentorshipSection5() {
     h2,p{
         text-align:center;
         padding-top:3rem;
+        color:#aaaaaa;
+        font-size:20px;
        
     }
 
-    .mentorbutton{
+    h2{
+      color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+    }
+
+    /* .mentorbutton{
         padding-top:6rem;
         align-self:center;
         margin:auto;
@@ -30,7 +43,7 @@ function MentorshipSection5() {
         display:block;
         align-items:center;
         display:flex;
-    }
+    } */
     
     
     `
@@ -40,9 +53,10 @@ function MentorshipSection5() {
       <div className='container'>
         <h2>WIN Mentorship Program</h2>
         <p>Women have many brilliant crops of ideas, but no vehicle to transport these ideas into reality. The WIN Mentorship program helps bridge that gap and guide ambitious women to have a fulfilling career in science and neuroscience in particular.</p>
-       <div className='mentorbutton'>
+       {/* <div className='mentorbutton'>
        <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
-       </div>
+       </div> */}
+       <AnimatedButton  text={'succead Today'}/>
       </div>
     </MentorshipSection5>
   )

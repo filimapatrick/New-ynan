@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import A1 from '../../image/Lecturers/Lekpa.jpg';
+import m8 from '../../image/main-home/m8.jpg';
 import AnimatedButton from '../AnimatedButton';
 
 function MentorshipSection2() {
@@ -39,19 +39,28 @@ p{
     text-align:center;
     
 }
+
+h2{
+  color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+}
+
     `
   return (
     <MentorshipSection2style>
 
     <div className="left-text">
-        <h1>WIN Mentors Transforms Your Vision into Creative Results</h1>
-        <AnimatedButton text={'Join Us'}/>
+        <h2>YNAN Mentors Transforms Your Vision into Creative Results</h2>
+        <AnimatedButton text={'Start your Mentorship Application Now'}/>
         {/* <h4>JOIN OUR NETWORK </h4>
         <p>Start your registration process here. Click the button to go to our membership form.</p> */}
     </div>
     
     <div className="right-image">
-        <img src={A1} alt="Avatar"/>
+        <img src={m8} alt="Avatar"/>
        </div>
     
     

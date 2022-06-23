@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function MemberShip() {
     const MemberShipStyle = styled.div ` 
-    height:35rem;
+    /* height:35rem; */
     background-color:rgb(255,255,255);
     display: flex;
     flex-wrap: wrap;
@@ -11,6 +11,7 @@ function MemberShip() {
     justify-content:center;
     padding-left:7rem;
     padding-right:7rem;
+    padding-bottom:4rem;
     
 
 .right-image{
@@ -34,9 +35,13 @@ function MemberShip() {
     padding-top:7rem;
 }
 
-p,h6,h2{
+p,h2{
     text-align:center;
     padding-bottom:1rem;
+}
+p{
+  color:#aaaaaa;
+  font-size:20px;
 }
    
 hr{
@@ -47,16 +52,33 @@ hr{
   margin-right:auto;
   margin-bottom:2rem;
 }
+
+.light-header{
+  padding-bottom:2rem;
+  color:#aaaaaa;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+}
+
+h2{
+  color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+}
     `
   return (
     <MemberShipStyle>
-      <h6>WOMEN IN NEUROSCIENCE, NIGERIA</h6>
+      <p className='light-header'>YOUTH NEUROSCIENCE, NIGERIA</p>
       <div className='wrapper'>
 
 <div className='membersip'>
   <h2>Membership</h2>
   <hr/>
-<p> The award was launched in 2018 by ECO foundation. The noble idea is to empower and inspire the young female students to pursue a career in neuroscience. To this effect, ECO Foundation offers an annual award to the best neuroscience student and best female neuroscience student in Nigeria.
+<p > The award was launched in 2018 by ECO foundation. The noble idea is to empower and inspire the young female students to pursue a career in neuroscience. To this effect, ECO Foundation offers an annual award to the best neuroscience student and best female neuroscience student in Nigeria.
 
 Find a list of previous awards here.
 

@@ -34,11 +34,17 @@ function MentorshipSection3() {
 
     .title,p{
         text-align:center;
+        color:#aaaaaa;
+        font-size:20px;
     }
 
     .title{
-        font-weight:500;
-        padding-bottom:1rem;
+      color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+ padding-bottom:1rem;
     }
     
     `

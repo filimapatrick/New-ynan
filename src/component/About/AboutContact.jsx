@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import A1 from '../../image/Lecturers/Lekpa.jpg';
+import m7 from '../../image/main-home/m7.jpg';
+import AnimatedButton from '../AnimatedButton';
 
 function AboutContact() {
 
@@ -36,21 +37,44 @@ function AboutContact() {
 
 p{
     text-align:center;
-    
+    color:#aaaaaa;
+  font-size:20px;
 }
+
+.light-header{
+  padding-bottom:2rem;
+  color:#aaaaaa;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+}
+
+h2{
+  color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+}
+
     `
   return (
     <AboutContactStyle>
 
     <div className="left-text">
-        <h1>Become a member of WIN Nigeria</h1>
-        <h4>JOIN OUR NETWORK </h4>
-        <p>Start your registration process here. Click the button to go to our membership form.</p>
-        <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
+        <p className='light-header'>We Love Our Job</p>
+        <h2>Want to know more?</h2>
+        {/* <h4>JOIN OUR NETWORK </h4> */}
+        <p>We love to hear from you. If you have any questions or suggestions simply click the button below to send us an email with your inquiries.
+
+Or email us @ womeninneuroscienceng@gmail.com</p>
+        {/* <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a> */}
+        <AnimatedButton text={'Conact Us'} />
     </div>
     
     <div className="right-image">
-        <img src={A1} alt="Avatar"/>
+        <img src={m7} alt="Avatar"/>
        </div>
     
     

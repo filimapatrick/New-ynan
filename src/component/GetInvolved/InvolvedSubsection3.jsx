@@ -1,8 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
-import A1 from '../../image/Lecturers/Lekpa.jpg';
+// import A1 from '../../image/Lecturers/Lekpa.jpg';
 // import InvolvedSubsection1 from './InvolvedSubsection1';
-
+import m10 from '../../image/main-home/m10.jpg';
+import m11 from '../../image/main-home/m11.jpg';
+import m12 from '../../image/main-home/m12.jpg';
 function InvolvedSubsection3() {
     const HomeSubsectionStyle = styled.div ` 
   
@@ -14,7 +16,7 @@ function InvolvedSubsection3() {
     .header{
         text-align:center;
     }
-    h4{
+    h2{
         padding-top:2rem;
         padding-bottom:2rem;
     }
@@ -50,15 +52,36 @@ function InvolvedSubsection3() {
 p{
     height:4rem;
     text-align:center;
+    color:#aaaaaa;
+    font-size:20px;
 }
 
+
+.light-header{
+ 
+ color:#aaaaaa;
+ font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+
+}
+
+h2{
+   color:black;
+ font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+
+}
     
     `
   return (
     <HomeSubsectionStyle>
           <div className='header'> 
-    <i>MEET OUR LEADERSHIP TEAM</i>
-    <h4>WIN Leadership</h4>
+    <p className='light-header'>Our Activities</p>
+    {/* <h2>WIN Leadership</h2> */}
     </div>
 
    <div className="wrapper">
@@ -66,33 +89,30 @@ p{
 
   <div className='container'>
     <div className='image'>
-        <img src={A1} alt=''/>
+        <img src={m11} alt=''/>
     </div>
     <div className='activity'>activity</div>
-    <div className='title'> Lekpa</div>
-    <p>src/component/GetInvolved/InvolvedSubsection1.jsx
-  Line 47:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text </p>
+    <div className='title'>WIN NG Neuroscience Outreach Holds in Edo University for Female Students</div>
+    <p>The University of Port Harcourt Chapter of Women in Neuroscience, Nigeria celebrated the International Day of Girls in Science this February. The International Day of Girls in Science was establis… </p>
   </div>
 
 
   <div className='container'>
     <div className='image'>
-        <img src={A1} alt=''/>
+        <img src={m10} alt=''/>
     </div>
     <div className='activity'>activity</div>
-    <div className='title'> Lekpa</div>
-    <p>src/component/GetInvolved/InvolvedSubsection1.jsx
-  Line 47:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text </p>
+    <div className='title'> WIN Uniport Chapter, Celebrates International Day for Women and Girls in Science</div>
+    <p>A neuroscience outreach held at Edo University Iyamho last December for uniquely designed for 200 level MBBS female students. The outreach was organized by Itohan Roli Osahon and the Head of Depa… </p>
   </div>
 
   <div className='container'>
     <div className='image'>
-        <img src={A1} alt=''/>
+        <img src={m12} alt=''/>
     </div>
     <div className='activity'>news</div>
-    <div className='title'> Lekpa</div>
-    <p>src/component/GetInvolved/InvolvedSubsection1.jsx
-  Line 47:5:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text </p>
+    <div className='title'> on 29 May, 2020 by admin</div>
+    <p>WIN Mentorship Circle WIN invites women pursuing/interested in a career in neuroscience to apply for the mentorship program. The program is open for all women at a graduate or post-graduate lev… </p>
   </div>
 
 

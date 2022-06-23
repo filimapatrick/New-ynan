@@ -1,12 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
-import A1 from '../image/Lecturers/Lekpa.jpg';
+import m5 from '../image/main-home/m5.jpg';
+import AnimatedButton from './AnimatedButton';
+
 
 
 
 function HomeSubsection3() {
     const HomeSubsection3Style = styled.div ` 
-    
+           @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
     display: flex;
     flex-wrap: wrap;
     padding-top:4rem;
@@ -36,22 +38,42 @@ function HomeSubsection3() {
 
 p{
     text-align:center;
-    
+    color:#aaaaaa;
+    font-size:20px;
+}
+
+h2{
+    color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+
+}
+
+.light-header{
+ 
+ color:#aaaaaa;
+ font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+
 }
     `
   return (
     <HomeSubsection3Style>
-
+     
 <div className="left-text">
-    <h1>Welcome To</h1>
-    <p> Women are underrepresented and less engaged in STEM disciplines. We need more women on the table to bridge gender inequality.
-
-To this effect, there is a need for a formal and impact-oriented structure that provides much needed guidance for budding female neuroscientists.</p>
-<a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
+    <p className='light-header'>JOIN OUR NETWORK</p>
+    <h2>Gain valuable support in your journey</h2>
+    <p> Membership is open to women who are pursuing or interested in a career in neuroscience. Click the button below to continue to our registration page..</p>
+{/* <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a> */}
+<AnimatedButton text={'Become A Member Now'}/>
 </div>
 
 <div className="right-image">
-    <img src={A1} alt="Avatar"/>
+    <img src={m5} alt="Avatar"/>
    </div>
 
 

@@ -30,12 +30,35 @@ function InvolvedSubsection1() {
 h2,h6,p{
   text-align:center;
 }
+p{
+  color:#aaaaaa;
+  font-size:20px;
+}
 
 
 .involved-button{
   display:grid;
   text-align:center;
  
+}
+
+.light-header{
+ 
+ color:#aaaaaa;
+ font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+
+}
+
+h2{
+   color:black;
+ font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+
 }
 
     `
@@ -50,14 +73,14 @@ h2,h6,p{
 <div className='text'>
     
     <h2>Participate in one of our projects</h2>
-    <h6>Take part in any of our upcoming programs, outreaches and events holding close to you.</h6>
+    <p className='light-header'>Take part in any of our upcoming programs, outreaches and events holding close to you.</p>
     <p>If you are interested in a career in neuroscience, apply to become a member below.</p>
     
      </div>
 
 <div className='involved-button'>
     <AnimatedButton text={'Join Us'}/>
-    <span>Or Apply to start a new chapter</span>
+    <span className='light-header' >Or Apply to start a new chapter</span>
     <AnimatedButton text={'Apply Here'}/>
     
      </div>

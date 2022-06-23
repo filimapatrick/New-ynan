@@ -54,13 +54,21 @@ function ImageSlider() {
     
   padding-top:3rem;
   padding-bottom:6rem;
-  .slider_title {
+  .slider_title,h2 {
     font-size: 3vw;
     color: black;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 2vw;
-    font-weight: 400;
+    
+
+    
+ 
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+
     
   }
   
@@ -297,7 +305,7 @@ function ImageSlider() {
     return (
 
         <AboutSlider>
-             <div className="slider_title">MindS Behind YNAN</div>
+             <h2 className="slider_title">MindS Behind YNAN</h2>
         <Slider {...settings}>
           
             {/* <div className="card-wrapper">

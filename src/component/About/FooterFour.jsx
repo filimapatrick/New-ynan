@@ -56,7 +56,7 @@ export default function FooterFour() {
     <FooterStyle>
       <div className="container">
         <div className="footer__col1">
-          <img src='./ynan.png' alt='logo' />
+          <img src='./ynan.jpeg' alt='logo' />
           <p>
           YNAN is an association that provides
 a platform for interaction,

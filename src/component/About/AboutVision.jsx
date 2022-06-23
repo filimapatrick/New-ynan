@@ -17,7 +17,7 @@ function AboutVision() {
                 <h2 class="section-title__heading"> A unique experience</h2>
                 {/* <p class="section-title__description">To ensure that neuroscience is familiar and <br class="d-none d-xxl-block"/> accessible to all who hope for a future <br class="d-none d-xxl-block"/> In neuroscience and its related field.</p> */}
                 <p className='section-title__description'>To motivate students to learn about the brain <br class="d-none d-xxl-block"/>  and to inspire them to pursue careers in neuroscience<br class="d-none d-xxl-block"/>  so that can treat neurological diseases </p>
-                <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
+                {/* <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a> */}
               </div>
               {/* <!--/ .Section Title --> */}
             </div>
