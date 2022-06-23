@@ -61,7 +61,7 @@ h1,h4{
     <h1>Youth Neuroscience Association Of Nigeria</h1>
     <p>Setting The Pace In Nigeria</p>
     {/* <button>Empowering Youth</button> */}
-    <SecondaryButton/>
+    <SecondaryButton text={'Register'}/>
   
   </div>
 </div>

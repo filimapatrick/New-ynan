@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function AnimatedButton() {
+function AnimatedButton({text}) {
     const Button = styled.a` 
 
 min-height: 100%;
@@ -323,7 +323,7 @@ min-height: 100%;
   <span></span>
   <span></span>
   <span></span>
-  Button
+  {text}
 </a>
     </Button>
   )

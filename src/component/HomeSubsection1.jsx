@@ -4,7 +4,7 @@ import A1 from '../../src/image/pamo/pamo1.jpg';
 
 function HomeSubsection1() {
     const HomeStyle = styled.div ` 
-    background-color:gray;
+    background-color:rgb(243,244,246);
    padding-top:4rem;
    padding-bottom:4rem;
    position:relative;

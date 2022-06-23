@@ -56,9 +56,9 @@ h2,h6,p{
      </div>
 
 <div className='involved-button'>
-    <AnimatedButton/>
-    <span>Or</span>
-    <AnimatedButton/>
+    <AnimatedButton text={'Join Us'}/>
+    <span>Or Apply to start a new chapter</span>
+    <AnimatedButton text={'Apply Here'}/>
     
      </div>
 

@@ -40,7 +40,7 @@ h1{
   <div className="hero-text">
     <h1>Get Invovled</h1>
 
-    <SecondaryButton/>
+    <SecondaryButton text={'Join Us'}/>
   
   </div>
 </div>

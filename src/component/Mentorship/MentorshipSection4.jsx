@@ -52,7 +52,7 @@ p{
 
        <div className="left-text">
         <h1>WIN Mentors Transforms Your Vision into Creative Results</h1>
-        <AnimatedButton/>
+        <AnimatedButton text={'Join Us'}/>
         {/* <h4>JOIN OUR NETWORK </h4>
         <p>Start your registration process here. Click the button to go to our membership form.</p> */}
     </div>

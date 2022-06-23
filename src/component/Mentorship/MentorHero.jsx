@@ -58,7 +58,7 @@ h1{
     <h1>About Us</h1>
     <p>YNAN is an association that provides a platform for interaction,innovation,creativity and career opportunities to explore into areas related to the nervous system,especially the Brain.</p>
     {/* <button>Empowering Youth</button> */}
-    <SecondaryButton/>
+    <SecondaryButton text={'Join Us'}/>
   
   </div>
 </div>

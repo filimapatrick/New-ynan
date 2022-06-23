@@ -7,6 +7,7 @@ function HomeSubsection4() {
     background-color:gray;
     padding-top:4rem;
     padding-bottom:4rem;
+    background-color:rgb(243,244,246);
     
 
     .header{

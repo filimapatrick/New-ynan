@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function SecondaryButton() {
+function SecondaryButton({text}) {
     const Secondary = styled.div` 
     @import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300';
     height: 100%;
@@ -95,7 +95,7 @@ div[class*=container] {
 <div className="col">
   <div className="container-1">
     <div className="btn btn-one">
-      <span>BUTTON ONE</span>
+      <span>{text}</span>
     </div>
   </div>
   </div>
