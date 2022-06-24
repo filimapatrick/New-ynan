@@ -6,6 +6,7 @@ import MentorshipPage from './Pages/MentorshipPage';
 import {Routes,Route} from 'react-router-dom'
 import InvolvePage from './Pages/InvolvePage';
 import GalleryPage from './Pages/GalleryPage';
+import EventPage from './Pages/EventPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/mentorship" element={<MentorshipPage/>}/>
       <Route path="/involved" element={<InvolvePage/>}/>
       <Route path="/gallery" element={<GalleryPage/>}/>
+      <Route path='/events' element={<EventPage/>}/>
     </Routes>
     </div>
   );

@@ -1,16 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import A6 from '../../image/Brain-Awareness-Week/Bawarenes10.jpg'
-import A7 from '../../image/Autism/Autism1.jpg';
-import A8 from '../../image/Brain-Awareness-Week/Bawarenes11.jpg';
-import A9 from '../../image/pamo/pamo5.jpg';
-import A11 from '../../image/Brain-Awareness-Week/Bawarenes5.jpg';
-import A12 from '../../image/Brain-Awareness-Week/Bawarenes6.jpg';
-import A14 from '../../image/pamo/pamo1.jpg';
-import A15 from '../../image/perfusion/perfusion1.jpg';
+import Br1 from '../../image/brainbee/Br1.jpg'
+import Br2 from '../../image/brainbee/Br2.jpg'
+import Br3 from '../../image/brainbee/Br3.jpg'
+import BST2 from '../../image/brainbee/BST2.jpg'
 
-function Gallery1() {
+
+function Gallery4() {
   const GalleryStyle = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
 
@@ -18,8 +15,8 @@ function Gallery1() {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- padding-top: 7rem;
- padding-bottom: 5rem;
+ padding-top: 2rem;
+ padding-bottom: 3rem;
   overflow: hidden;
 
   h1 {
@@ -125,52 +122,69 @@ p {
 }
 
 
+
+.light-header{
+  padding-bottom:2rem;
+  color:#aaaaaa;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+}
+
+h2{
+  color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+}
+
+
   `;
   return (
     <GalleryStyle>
-      
+      <h2> Regional Brain Bee</h2>
+      <p className='light-header'>University Of Port-Harcourt</p>
      
 <div class="wrapper">
   
 <div class="media">
 <div class="layer">
-    <p>Award given session at the Brain Aware week by Dr.Mrs Ezejiorfor</p>
+    <p>Brain bee screening test for selection of finalists towards brain bee competition during BAW 2022 conducted Community secondary school rumuapara p.H</p>
   </div>
-  <img src={A6} alt="" />
+  <img src={BST2} alt="" />
 </div>
 
 
  <div class="media">
 <div class="layer">
-    <p>Brain Autism Outreach At Port-Harcourt Autism Centre</p>
+    <p>Congratulations to *St. John's College, Jos* for emerging as the *first runner up* in our last *Regional Brain Bee Competition during the 2022 Brain Awareness Week*</p>
   </div>
-  <img src={A7} alt="" />
+  <img src={Br3} alt="" />
 </div>
 
  <div class="media">
 <div class="layer">
-    <p>Photo Session with YNAN student excos</p>
+    <p>Congratulations to Commander Secondary School, Jos for emerging as the second runner up in our last Regional Brain Bee Competition during the 2022 Brain Awareness Week</p>
   </div>
-  <img src={A8} alt="" />
+  <img src={Br2} alt="" />
 </div>
 
 
  <div class="media">
 <div class="layer">
-    <p>Brain Exhibition with Dr.Mike Oyakhire</p>
+    <p>Congratulations to St. Murumba College, Jos for emerging as the third runner up in our last Regional Brain Bee Competition during the 2022 Brain Awareness Week</p>
   </div>
 
-  <img src={A9} alt="" />
+  <img src={Br1} alt="" />
 </div>
- <div class="media">
-<div class="layer">
-    <p>Brain Perfusion session with Dr.Mrs Ebere
-    </p>
-  </div>
+ {/* <div class="media"> */}
 
 
 
-  <img src={A11} alt="" />
+
+  {/* <img src={A11} alt="" />
 </div>
  <div class="media">
 <div class="layer">
@@ -191,14 +205,14 @@ p {
 <div class="layer">
     <p>Brain perfusion session with Dr.Mrs Orish</p>
   </div>
-<img src={A15} alt="" />
-</div>
+<img src={A15} alt="" /> */}
+{/* </div> */}
 </div>
       </GalleryStyle>
   )
 }
 
-export default Gallery1
+export default Gallery4
 
 
 

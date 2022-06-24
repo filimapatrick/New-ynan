@@ -1,4 +1,5 @@
 import React from 'react'
+import AboutActivities from '../component/About/AboutActivities'
 import AboutContact from '../component/About/AboutContact'
 import AboutHero from '../component/About/AboutHero'
 import AboutStory from '../component/About/AboutStory'
@@ -12,8 +13,9 @@ function AboutPage() {
    <AboutHero/>
    <AboutStory/>
    <AboutVision/>
-   <AboutContact/>
    <MemberShip/>
+   {/* <AboutActivities/> */}
+   <AboutContact/>
    <FooterFour/>
     </div>
   )

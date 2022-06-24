@@ -26,7 +26,7 @@ function HomeSubsection1() {
          height: 25rem;
             width:25rem;
             padding-bottom: 8rem;
-            margin-bottom:2rem;
+            margin-bottom:5rem;
          
 
    }
@@ -35,6 +35,7 @@ function HomeSubsection1() {
         height: 100%;
         width: 100%;
         object-fit: fill;
+       
     }
     
 

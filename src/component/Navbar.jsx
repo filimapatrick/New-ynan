@@ -203,12 +203,14 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/event"
+                to="/register"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Membership
+                Register
+
+              
               </NavLink>
             </li>
             <li className="nav-item">
@@ -232,6 +234,18 @@ function NavBar() {
                 onClick={handleClick}
               >
                 Gallery
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/events"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Upcoming Events
               </NavLink>
             </li>
           </ul>

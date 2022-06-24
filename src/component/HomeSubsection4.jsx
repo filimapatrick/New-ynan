@@ -1,6 +1,16 @@
 import React from 'react';
 import styled from 'styled-components';
-import A1 from '../image/main-home/sample.jpg';
+// import A1 from '../image/main-home/sample.jpg';
+import Es1 from '../image/Escos/Es1.jpg';
+import Es2 from '../image/Escos/Es2.jpg';
+import Es3 from '../image/Escos/Es3.jpg';
+import Es4 from '../image/Escos/Es4.jpg';
+import Es5 from '../image/Escos/Es5.jpg';
+import Es6 from '../image/Escos/Es6.jpg';
+import Es7 from '../image/Escos/Es7.jpg';
+import Es9 from '../image/Escos/Es9.jpg';
+import Es8 from '../image/Escos/Es8.jpg';
+// import Es1 from '../image/Escos/Es1.jpg';
 import AnimatedButton from './AnimatedButton';
 
 function HomeSubsection4() {
@@ -25,20 +35,24 @@ function HomeSubsection4() {
     }
 
     .container{
-        height: 40rem;
+        height: auto;
         width:25rem;
+        /* border:3px solid black; */
+        margin-bottom:1rem;
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     }
 
     .image{
         height:30rem;
-        width:25rem;
-        object-fit: cover;
+        width:23rem;
+     
+        /* border:3px solid black; */
     }
 
     .image img{
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: inherit;
     }
 
     .title{
@@ -86,85 +100,85 @@ font-size:1.5rem;
   
 <div className='container'> 
 <div className='image'>
-<img src={A1} alt=""/>
+<img src={Es1} alt=""/>
 </div>
 
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
-</div>
-
-
-<div className='container'> 
-<div className='image'>
-<img src={A1} alt=""/>
-</div>
-
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
-</div>
-
-<div className='container'> 
-<div className='image'>
-<img src={A1} alt=""/>
-</div>
-
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
-</div>
-
-<div className='container'> 
-<div className='image'>
-<img src={A1} alt=""/>
-</div>
-
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
-</div>
-
-<div className='container'> 
-<div className='image'>
-<img src={A1} alt=""/>
-</div>
-
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
-</div>
-
-<div className='container'> 
-<div className='image'>
-<img src={A1} alt=""/>
-</div>
-
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
-</div>
-
-<div className='container'> 
-<div className='image'>
-<img src={A1} alt=""/>
-</div>
-
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
-</div>
-
-<div className='container'> 
-<div className='image'>
-<img src={A1} alt=""/>
-</div>
-
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
 </div>
 
 
 <div className='container'> 
 <div className='image'>
-<img src={A1} alt=""/>
+<img src={Es2} alt=""/>
 </div>
 
-<div className='title'>Name</div>
-<div className='light-header'>Who Are You</div>
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
+</div>
+
+<div className='container'> 
+<div className='image'>
+<img src={Es3} alt=""/>
+</div>
+
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
+</div>
+
+<div className='container'> 
+<div className='image'>
+<img src={Es4} alt=""/>
+</div>
+
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
+</div>
+
+<div className='container'> 
+<div className='image'>
+<img src={Es5} alt=""/>
+</div>
+
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
+</div>
+
+<div className='container'> 
+<div className='image'>
+<img src={Es6} alt=""/>
+</div>
+
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
+</div>
+
+<div className='container'> 
+<div className='image'>
+<img src={Es7} alt=""/>
+</div>
+
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
+</div>
+
+<div className='container'> 
+<div className='image'>
+<img src={Es8} alt=""/>
+</div>
+
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
+</div>
+
+
+<div className='container'> 
+<div className='image'>
+<img src={Es9} alt=""/>
+</div>
+
+{/* <div className='title'>Name</div>
+<div className='light-header'>Who Are You</div> */}
 </div>
 <AnimatedButton text={'See Our Advisory Board Members'} />
    </div>

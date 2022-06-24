@@ -68,6 +68,24 @@ h2,p{
 }
 
 
+.light-header{
+  padding-bottom:2rem;
+  color:#aaaaaa;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+}
+
+h2{
+  color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+}
+
+
 
 
 
@@ -151,8 +169,8 @@ h2,p{
     <Gallery2>
 
        
-<h2>Image Hover Fullscreen Zoom</h2>
-<p>Hover over the image to see the zoom effect.</p>
+<h2>Autism Outreach</h2>
+<p className='light-header'>University Of Port-Harcourt Chapter.</p>
 
 
 <div className='wrapper'> 

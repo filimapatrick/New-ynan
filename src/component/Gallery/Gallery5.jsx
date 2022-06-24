@@ -1,16 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import A6 from '../../image/Brain-Awareness-Week/Bawarenes10.jpg'
-import A7 from '../../image/Autism/Autism1.jpg';
-import A8 from '../../image/Brain-Awareness-Week/Bawarenes11.jpg';
-import A9 from '../../image/pamo/pamo5.jpg';
-import A11 from '../../image/Brain-Awareness-Week/Bawarenes5.jpg';
-import A12 from '../../image/Brain-Awareness-Week/Bawarenes6.jpg';
-import A14 from '../../image/pamo/pamo1.jpg';
-import A15 from '../../image/perfusion/perfusion1.jpg';
+import S1 from '../../image/Soot/S1.jpg'
+import S2 from '../../image/Soot/S2.jpg'
+import S3 from '../../image/Soot/S3.jpg'
+import S4 from '../../image/Soot/S4.jpg'
 
-function Gallery1() {
+
+function Gallery5() {
   const GalleryStyle = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
 
@@ -18,8 +15,8 @@ function Gallery1() {
   flex-direction: column;
   justify-content: center;
   align-items: center;
- padding-top: 7rem;
- padding-bottom: 5rem;
+ padding-top: 2rem;
+ /* padding-bottom: 2rem; */
   overflow: hidden;
 
   h1 {
@@ -125,52 +122,69 @@ p {
 }
 
 
+
+.light-header{
+  padding-bottom:2rem;
+  color:#aaaaaa;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+}
+
+h2{
+  color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+}
+
+
   `;
   return (
     <GalleryStyle>
-      
+      <h2>Black Soot Sensitization</h2>
+      <p className='light-header'>University Of Port-Harcourt</p>
      
 <div class="wrapper">
   
 <div class="media">
 <div class="layer">
-    <p>Award given session at the Brain Aware week by Dr.Mrs Ezejiorfor</p>
+    <p>Addressing the soot incidence and its impact on the residence of People in Port Harcourt, Rivers State.</p>
   </div>
-  <img src={A6} alt="" />
+  <img src={S1} alt="" />
 </div>
 
 
  <div class="media">
 <div class="layer">
-    <p>Brain Autism Outreach At Port-Harcourt Autism Centre</p>
+    <p>Addressing the soot incidence and its impact on the residence of People in Port Harcourt, Rivers State.</p>
   </div>
-  <img src={A7} alt="" />
+  <img src={S2} alt="" />
 </div>
 
  <div class="media">
 <div class="layer">
-    <p>Photo Session with YNAN student excos</p>
+    <p>Addressing the soot incidence and its impact on the residence of People in Port Harcourt, Rivers State.</p>
   </div>
-  <img src={A8} alt="" />
+  <img src={S3} alt="" />
 </div>
 
 
  <div class="media">
 <div class="layer">
-    <p>Brain Exhibition with Dr.Mike Oyakhire</p>
+    <p>Addressing the soot incidence and its impact on the residence of People in Port Harcourt, Rivers State.</p>
   </div>
 
-  <img src={A9} alt="" />
+  <img src={S4} alt="" />
 </div>
  <div class="media">
-<div class="layer">
-    <p>Brain Perfusion session with Dr.Mrs Ebere
-    </p>
-  </div>
 
 
 
-  <img src={A11} alt="" />
+
+  {/* <img src={A11} alt="" />
 </div>
  <div class="media">
 <div class="layer">
@@ -191,14 +205,14 @@ p {
 <div class="layer">
     <p>Brain perfusion session with Dr.Mrs Orish</p>
   </div>
-<img src={A15} alt="" />
+<img src={A15} alt="" /> */}
 </div>
 </div>
       </GalleryStyle>
   )
 }
 
-export default Gallery1
+export default Gallery5
 
 
 

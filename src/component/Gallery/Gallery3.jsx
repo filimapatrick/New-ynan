@@ -10,7 +10,7 @@ import A12 from '../../image/Brain-Awareness-Week/Bawarenes6.jpg';
 import A14 from '../../image/pamo/pamo1.jpg';
 import A15 from '../../image/perfusion/perfusion1.jpg';
 
-function Gallery1() {
+function Gallery3() {
   const GalleryStyle = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Inconsolata|Source+Sans+Pro:200,300,400,600');
 
@@ -125,10 +125,30 @@ p {
 }
 
 
+
+.light-header{
+  padding-bottom:2rem;
+  color:#aaaaaa;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+}
+
+h2{
+  color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+}
+
+
   `;
   return (
     <GalleryStyle>
-      
+      <h2> Brain Awareness Week</h2>
+      <p className='light-header'>University Of Port-Harcourt</p>
      
 <div class="wrapper">
   
@@ -198,7 +218,7 @@ p {
   )
 }
 
-export default Gallery1
+export default Gallery3
 
 
 
