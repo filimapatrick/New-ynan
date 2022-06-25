@@ -12,7 +12,7 @@ import e8 from '../../image/activities/e8.jpg';
 
 function Events() {
     const Event = styled.div` 
-margin-top:-33rem;
+margin-top:-20rem;
    
     .wrapper{
         display:flex;
@@ -81,6 +81,12 @@ p{
 
 @media screen and (max-width: 1200px) {
 
+    /* .wrapper{
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+        margin-top:-10rem;
+    } */
 
 .container{
     /* padding:2rem; */
