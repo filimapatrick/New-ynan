@@ -245,7 +245,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Upcoming Events
+                 Events
               </NavLink>
             </li>
           </ul>
