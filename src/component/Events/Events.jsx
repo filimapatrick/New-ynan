@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import E1 from '../../image/activities/E1.jpg';
+// import E1 from '../../image/activities/E1.jpg';
 import E2 from '../../image/activities/E2.jpg';
 import e3 from '../../image/activities/e3.jpg';
 import e4 from '../../image/activities/e4.jpg';
@@ -12,8 +12,8 @@ import e8 from '../../image/activities/e8.jpg';
 
 function Events() {
     const Event = styled.div` 
-
-    margin-top:-30rem;
+margin-top:-33rem;
+   
     .wrapper{
         display:flex;
         justify-content:center;

@@ -1,6 +1,6 @@
 import React from 'react';
 // import B4 from '../../src/image/Brain-Awareness-Week/Bawarenes11.jpg';
-import B4 from '../../../src/image/home-5/content-1-l5-img.png'
+import B4 from '../../image/activities/e8.jpg';
 
 function AboutVision() {
   return (
