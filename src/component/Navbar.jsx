@@ -149,8 +149,27 @@ function NavBar() {
     }
   }
 
+  /* a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
 
+a:hover, a:active {
+  background-color: green;
+  color: white;
+} */
 
+.btn {
+  border:1px solid gray;
+  font-size:1.1rem;
+  color:black;
+
+}
   
   `
   return (
@@ -200,10 +219,11 @@ function NavBar() {
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <NavLink
+            {/* <li className="nav-item">
+              
+              <NavLink 
                 exact
-                to="/register"
+                to="https://docs.google.com/forms/d/1xpVSe7D8rirCMqYFsBlUukO1flB9Yrb5HCh4C6VRg5k/viewform?edit_requested=true"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -212,7 +232,7 @@ function NavBar() {
 
               
               </NavLink>
-            </li>
+            </li> */}
             <li className="nav-item">
               <NavLink
                 exact
@@ -247,6 +267,13 @@ function NavBar() {
               >
                  Events
               </NavLink>
+            </li>
+
+            <li>
+              <a href="https://docs.google.com/forms/d/1xpVSe7D8rirCMqYFsBlUukO1flB9Yrb5HCh4C6VRg5k/"> <button className="btn">
+             Register
+              </button>
+              </a>
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
