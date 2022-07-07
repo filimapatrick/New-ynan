@@ -11,7 +11,7 @@ function GalleryPage() {
   return (
     <div>
         <Gallery1/>
-        <Gallery2/>
+        {/* <Gallery2/> */}
         <Gallery3/>
         <Gallery4/>
         <Gallery5/>

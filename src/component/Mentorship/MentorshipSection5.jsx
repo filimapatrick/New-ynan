@@ -5,9 +5,8 @@ import AnimatedButton from '../AnimatedButton';
 function MentorshipSection5() {
     const MentorshipSection5 = styled.div` 
     height:30rem;
-
-  background-color: #7ee8fa;
-background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
 ;
    
 
@@ -34,16 +33,9 @@ font-family: 'Playfair Display', serif;
 font-size:2rem;
     }
 
-    /* .mentorbutton{
-        padding-top:6rem;
-        align-self:center;
-        margin:auto;
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-        align-items:center;
-        display:flex;
-    } */
+   @media screen and (max-width: 375px) {
+    height:40rem;
+    }
     
     
     `
@@ -56,7 +48,10 @@ font-size:2rem;
        {/* <div className='mentorbutton'>
        <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
        </div> */}
+       <div className='mentorbutton'>
        <AnimatedButton  text={'succead Today'}/>
+        </div>
+     
       </div>
     </MentorshipSection5>
   )

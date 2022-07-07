@@ -8,7 +8,8 @@ import HomeSubsection2 from '../component/HomeSubsection2'
 import HomeSubsection3 from '../component/HomeSubsection3'
 import HomeSubsection4 from '../component/HomeSubsection4'
 import HomeSubsection5 from '../component/HomeSubsection5'
-import Footer from '../component/Footer'
+import Footer from '../component/Footer';
+import Excos2 from '../component/Excos2';
 
 
 function HomePage() {
@@ -19,7 +20,8 @@ function HomePage() {
         <HomeSubsection1/>
         <HomeSubsection2/>
         <HomeSubsection3/>
-        <HomeSubsection4/>
+        {/* <HomeSubsection4/> */}
+        <Excos2/>
         <HomeSubsection5/>
        <Blog/>
        <Footer/>

@@ -8,7 +8,123 @@ function NavBar() {
 
   const handleClick = () => setClick(!click);
 
-  const NavStyle = styled.nav ` 
+  return (
+    <NavStyle>
+      <nav className="navbar">
+        <div className="nav-container">
+          <NavLink exact to="/" className="nav-logo">
+           <div className="logo-area">
+           <img src='./ynan.jpeg' alt=''/>
+           </div>
+          
+          
+          </NavLink>
+
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/about"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                About
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              Award
+              {/* <NavLink
+                exact
+                to="/award"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Award
+              </NavLink> */}
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/mentorship"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Mentorship
+              </NavLink>
+            </li>
+
+            
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="involved"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Get Involved
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/gallery"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Gallery
+              </NavLink>
+            </li>
+
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/events"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                 Activities
+              </NavLink>
+            </li>
+
+            {/* <li>
+              <a href="https://docs.google.com/forms/d/1xpVSe7D8rirCMqYFsBlUukO1flB9Yrb5HCh4C6VRg5k/"> <button className="btn">
+             Register
+              </button>
+              </a>
+            </li> */}
+          </ul>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
+        </div>
+      </nav>
+    </ NavStyle>
+  );
+}
+
+export default NavBar;
+
+
+const NavStyle = styled.nav ` 
   
   .navbar {
     background-color: white;
@@ -172,117 +288,3 @@ a:hover, a:active {
 }
   
   `
-  return (
-    <NavStyle>
-      <nav className="navbar">
-        <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
-           <div className="logo-area">
-           <img src='./ynan.jpeg' alt=''/>
-           </div>
-          
-          
-          </NavLink>
-
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/about"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                About
-              </NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/mentorship"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Mentorship
-              </NavLink>
-            </li>
-
-            {/* <li className="nav-item">
-              
-              <NavLink 
-                exact
-                to="https://docs.google.com/forms/d/1xpVSe7D8rirCMqYFsBlUukO1flB9Yrb5HCh4C6VRg5k/viewform?edit_requested=true"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Register
-
-              
-              </NavLink>
-            </li> */}
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="involved"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Get Involved
-              </NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/gallery"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Gallery
-              </NavLink>
-            </li>
-
-            <li className="nav-item">
-              <NavLink
-                exact
-                to="/events"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                 Events
-              </NavLink>
-            </li>
-
-            <li>
-              <a href="https://docs.google.com/forms/d/1xpVSe7D8rirCMqYFsBlUukO1flB9Yrb5HCh4C6VRg5k/"> <button className="btn">
-             Register
-              </button>
-              </a>
-            </li>
-          </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-          </div>
-        </div>
-      </nav>
-    </ NavStyle>
-  );
-}
-
-export default NavBar;

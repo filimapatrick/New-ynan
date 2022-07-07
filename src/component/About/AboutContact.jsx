@@ -57,6 +57,11 @@ font-family: 'Cormorant Garamond', serif;
 font-family: 'Playfair Display', serif;
 font-size:2rem;
 }
+@media screen and (max-width: 375px) {
+    .right-image{
+        padding-top:2rem;
+    }
+  }
 
     `
   return (

@@ -51,33 +51,15 @@ function AboutStory() {
               <ul class="feature-content--l3__list list-unstyled">
                 <li>To run a journal club</li>
                 <li>To Encourage participation in outreaches and creating awareness on neurological conditions and approaches to deal with them.</li>
-                <li>Allow students to cultivate their interest in Neuroscience in an informal environment, without the pressure of being graded.  </li>
+                <li>Allow students to cultivate their interest in Neuroscience in an informal environment, without the pressure of being graded.</li>
 
-                <li>Encouraging them to attain high levels of professional achievement by organizing lectures, seminars, outdoor presentations and workshops,.</li>
-                <li>To encourage and impact  primary  and high school students the knowledge of neuroscience by organizing outreaches, seminars, and other educative activities which can enlighten them more about neuroscience..</li>
+                <li>Encouraging them to attain high levels of professional achievement by organizing lectures, seminars, outdoor presentations and workshops,</li>
+                <li>To encourage and impact  primary  and high school students the knowledge of neuroscience by organizing outreaches, seminars, and other educative activities which can enlighten them more about neuroscience.</li>
                 <li>To develop and advance collaboration between young scientist, neuro-practitioners and international organizations. </li>
                 <li>To encourage excellence through ECO awards for outstanding students.</li>
-                <li>To encourage youth participation in Brain Awareness Week programs.. </li>
+                <li>To encourage youth participation in Brain Awareness Week programs. </li>
               </ul>
-              {/* <!--/ .Feature List --> */}
-              {/* <!--Counter Bar --> */}
-              {/* <div class="feature-counter feature-counter--l3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300" data-aos-once="true">
-                <div class="counter-widgets dark-mode-texts">
-                  <div class="counter-widgets__single counter-content">
-                    <h2 class="counter-content__heading">+<span class="counter">10,000</span></h2>
-                    <p class="counter-content__text">Followers </p>
-                  </div>
-                  <div class="counter-widgets__single counter-content">
-                    <h2 class="counter-content__heading">+<span class="counter">10</span></h2>
-                    <p class="counter-content__text">Universities</p>
-                  </div>
-                  <div class="counter-widgets__single counter-content">
-                    <h2 class="counter-content__heading">+<span class="counter">3500</span></h2>
-                    <p class="counter-content__text">Users Comments</p>
-                  </div>
-                </div>
-              </div> */}
-              {/* <!--/ .Counter Bar --> */}
+              
             </div>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import M4 from '../image/main-home/M4.jpg';
-function HomeSubsection2() {
+import Orish from '../../image/Lecturers/Orish.jpeg';
+function Mind() {
     const HomeSubsection2 = styled.div ` 
        @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
     display: flex;
@@ -71,13 +71,14 @@ font-size:2rem;
   return (
     <HomeSubsection2>
    <div className="left-image">
-    <img src={M4} alt="Avatar"/>
+    <img src={Orish} alt="Avatar"/>
    </div>
 
 
 <div className="right-text">
-<p className='light-header'>Youth Neuroscience Association Of Nigeria</p>
-    <h2>Why Youth Neuroscience, Nigeria?</h2>
+<h2>Mind BEHIND YNAN</h2>
+<p className='light-header'>DR.MRS.CN ORISH</p>
+   
     <p> Women are underrepresented and less engaged in STEM disciplines. We need more women on the table to bridge gender inequality.
 
 To this effect, there is a need for a formal and impact-oriented structure that provides much needed guidance for budding female neuroscientists.</p>
@@ -87,4 +88,4 @@ To this effect, there is a need for a formal and impact-oriented structure that 
   )
 }
 
-export default HomeSubsection2
+export default Mind;

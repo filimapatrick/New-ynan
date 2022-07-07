@@ -305,7 +305,7 @@ font-size:2rem;
     return (
 
         <AboutSlider>
-             <h2 className="slider_title">MindS Behind YNAN</h2>
+             <h2 className="slider_title">PATRONS</h2>
         <Slider {...settings}>
           
             {/* <div className="card-wrapper">

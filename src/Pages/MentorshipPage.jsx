@@ -9,6 +9,8 @@ import MentorshipSection5 from '../component/Mentorship/MentorshipSection5';
 import MentorshipSection6 from '../component/Mentorship/MentorshipSection6';
 import ImageSlider from '../component/Mentorship/Slider';
 import FooterFour from '../component/About/FooterFour';
+// import Excos2 from '../component/Excos2';
+import Mind from '../component/Mentorship/Mind';
 
 function MentorshipPage() {
   return (
@@ -16,6 +18,8 @@ function MentorshipPage() {
         <MentorHero/>
         <MentorshipSection2/>
         <ImageSlider/>
+        <Mind/>
+        {/* <Excos2/> */}
         <MentorshipSection3/>
         <MentorshipSection5/>
         <MentorshipSection6/>

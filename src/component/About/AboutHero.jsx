@@ -27,27 +27,7 @@ height: 70rem;
   color: white;
 }
 
-/* .hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: green;
-  text-align: center;
-  cursor: pointer;
 
-    &:hover {
-        background-color:#0000;
-        color: white;
-        
-    }
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-} */
 h1{
     color:white;
 }
