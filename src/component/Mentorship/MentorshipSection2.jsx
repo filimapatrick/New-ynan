@@ -52,14 +52,16 @@ font-size:2rem;
   return (
     <MentorshipSection2style>
 
-    <div className="left-text">
+    <div className="left-text" data-aos="zoom-out" data-aos-duration="3000">
         <h2>YNAN Mentors Transforms Your Vision into Creative Results</h2>
-        <AnimatedButton text={'Start your Mentorship Application Now'}/>
+        <p>We believe every dream is valid and we are committed to helping you achieve your goals and aspirations in neuroscience. We connect you to seasoned and accomplished neuroscientists for guidance and support in building your career and academic journey.</p>
+          <h2>Start your Mentorship Application</h2>
+        <AnimatedButton text={'Application Now'}/>
         {/* <h4>JOIN OUR NETWORK </h4>
         <p>Start your registration process here. Click the button to go to our membership form.</p> */}
     </div>
     
-    <div className="right-image">
+    <div className="right-image" data-aos="zoom-in" data-aos-duration="4000">
         <img src={m8} alt="Avatar"/>
        </div>
     

@@ -53,14 +53,14 @@ font-size:2rem;
         
    
     
-    <div className="right-image">
+    <div className="right-image" data-aos="slide-right" data-aos-duration="4000">
         <img src={m9} alt="Avatar"/>
        </div>
 
-       <div className="left-text">
+       <div className="left-text" data-aos="slide-left" data-aos-duration="4000">
         <h2>WIN Mentors Transforms Your Vision into Creative Results</h2>
         <AnimatedButton text={'Become A mentee'}/>
-        <AnimatedButton text={'Apply To Become A Win Mentor'}/>
+        <AnimatedButton text={'Become A  Mentor'}/>
         {/* <h4>JOIN OUR NETWORK </h4>
         <p>Start your registration process here. Click the button to go to our membership form.</p> */}
     </div>

@@ -10,10 +10,13 @@ import Es6 from '../image/Escos/Es6.jpg';
 import Es7 from '../image/Escos/Es7.jpg';
 import Es9 from '../image/Escos/Es9.jpg';
 import Es8 from '../image/Escos/Es8.jpg';
-// import Es1 from '../image/Escos/Es1.jpg';
 import AnimatedButton from './AnimatedButton';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function HomeSubsection4() {
+    AOS.init();
+
     const HomeSubsectionStyle = styled.div ` 
                @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=Cormorant+Garamond:ital,wght@0,300;1,300&display=swap');
     background-color:gray;
@@ -98,7 +101,7 @@ font-size:1.5rem;
     </div>
    <div className="wrapper">
   
-<div className='container'> 
+<div className='container' data-aos="flip-up"> 
 <div className='image'>
 <img src={Es1} alt=""/>
 </div>
@@ -108,7 +111,7 @@ font-size:1.5rem;
 </div>
 
 
-<div className='container'> 
+<div className='container' data-aos="flip-down"> 
 <div className='image'>
 <img src={Es2} alt=""/>
 </div>
@@ -117,7 +120,7 @@ font-size:1.5rem;
 <div className='light-header'>Who Are You</div> */}
 </div>
 
-<div className='container'> 
+<div className='container' data-aos="flip-up"> 
 <div className='image'>
 <img src={Es3} alt=""/>
 </div>
@@ -126,7 +129,7 @@ font-size:1.5rem;
 <div className='light-header'>Who Are You</div> */}
 </div>
 
-<div className='container'> 
+<div className='container'data-aos="flip-down"> 
 <div className='image'>
 <img src={Es4} alt=""/>
 </div>
@@ -135,7 +138,7 @@ font-size:1.5rem;
 <div className='light-header'>Who Are You</div> */}
 </div>
 
-<div className='container'> 
+<div className='container' data-aos="flip-up"> 
 <div className='image'>
 <img src={Es5} alt=""/>
 </div>
@@ -144,7 +147,7 @@ font-size:1.5rem;
 <div className='light-header'>Who Are You</div> */}
 </div>
 
-<div className='container'> 
+<div className='container' data-aos="flip-down"> 
 <div className='image'>
 <img src={Es6} alt=""/>
 </div>
@@ -153,7 +156,7 @@ font-size:1.5rem;
 <div className='light-header'>Who Are You</div> */}
 </div>
 
-<div className='container'> 
+<div className='container' data-aos="flip-up"> 
 <div className='image'>
 <img src={Es7} alt=""/>
 </div>
@@ -162,7 +165,7 @@ font-size:1.5rem;
 <div className='light-header'>Who Are You</div> */}
 </div>
 
-<div className='container'> 
+<div className='container' data-aos="flip-down"> 
 <div className='image'>
 <img src={Es8} alt=""/>
 </div>
@@ -172,7 +175,7 @@ font-size:1.5rem;
 </div>
 
 
-<div className='container'> 
+<div className='container' data-aos="flip-up"> 
 <div className='image'>
 <img src={Es9} alt=""/>
 </div>

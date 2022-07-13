@@ -10,6 +10,7 @@ import HomeSubsection4 from '../component/HomeSubsection4'
 import HomeSubsection5 from '../component/HomeSubsection5'
 import Footer from '../component/Footer';
 import Excos2 from '../component/Excos2';
+// import Navbar from '../component/Navbar/Navbar'
 
 
 function HomePage() {
@@ -25,7 +26,7 @@ function HomePage() {
         <HomeSubsection5/>
        <Blog/>
        <Footer/>
-       
+       {/* <Navbar/> */}
     </div>
   )
 }

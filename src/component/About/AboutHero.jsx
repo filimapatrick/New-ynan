@@ -35,10 +35,12 @@ h1{
   return (
     <AboutHero>
 
-<div className="hero-image">
+<div className="hero-image" div data-aos="zoom-in">
   <div className="hero-text">
     <h1>About Us</h1>
-    <p>YNAN is an association that provides a platform for interaction,innovation,creativity and career opportunities to explore into areas related to the nervous system,especially the Brain.</p>
+    <p>Youth Neuroscience Association of Nigeria is an organization that acts as a platform for mentorship, innovation, career development and interaction between accomplished neuroscientists and young individuals aspiring to pursue careers in neuroscience.
+
+Membership is open to students who are pursuing or interested in a career in neuroscience. Click the button below to continue to our registration page.</p>
     {/* <button>Empowering Youth</button> */}
     <SecondaryButton text={'Join Us'}/>
   

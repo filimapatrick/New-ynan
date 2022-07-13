@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-
+import {MdKeyboardArrowDown} from "react-icons/md";
 import styled from "styled-components";
 
 function NavBar() {
   const [click, setClick] = useState(false);
-
+ const [dropdown, setDropdown] = useState(false)
   const handleClick = () => setClick(!click);
 
   return (
@@ -45,27 +45,40 @@ function NavBar() {
             </li>
 
             <li className="nav-item">
-              Award
-              {/* <NavLink
-                exact
-                to="/award"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick}
-              >
-                Award
-              </NavLink> */}
-            </li>
-            <li className="nav-item">
               <NavLink
                 exact
                 to="/mentorship"
                 activeClassName="active"
                 className="nav-links"
-                onClick={handleClick}
+                onHover={handleClick}
               >
                 Mentorship
               </NavLink>
+            </li>
+
+
+
+
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="#"
+              
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Award <MdKeyboardArrowDown/>
+                
+              </NavLink>
+              <ul className="dropdown">
+                 <li>here is the best part of the day</li> 
+                 <li>Now</li>
+                 <li>Now</li>
+                 <li>Now</li>
+                 <li>Now</li>
+                 <li>Now</li>
+              </ul>
             </li>
 
             
@@ -105,12 +118,6 @@ function NavBar() {
               </NavLink>
             </li>
 
-            {/* <li>
-              <a href="https://docs.google.com/forms/d/1xpVSe7D8rirCMqYFsBlUukO1flB9Yrb5HCh4C6VRg5k/"> <button className="btn">
-             Register
-              </button>
-              </a>
-            </li> */}
           </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
@@ -146,6 +153,7 @@ const NavStyle = styled.nav `
     width: 100%;
     height: 80px;
     max-width: 1500px;
+   
   }
   
   .nav-logo {
@@ -280,11 +288,21 @@ a:hover, a:active {
   color: white;
 } */
 
-.btn {
-  border:1px solid gray;
-  font-size:1.1rem;
-  color:black;
+.dropdown{
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+  width:auto;
+  background-color:green;
+  margin-left:-6rem;
+  margin-top:2rem;
+  border-radius:4px;
+}
+
+.dropdown > li{
+  padding:0.5rem;
+  list-style:none;
+  padding-right:2rem;
 
 }
-  
   `

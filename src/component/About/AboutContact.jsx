@@ -67,7 +67,7 @@ font-size:2rem;
   return (
     <AboutContactStyle>
 
-    <div className="left-text">
+    <div className="left-text" data-aos="flip-left" data-aos-duration="3000">
         <p className='light-header'>We Love Our Job</p>
         <h2>Want to know more?</h2>
         {/* <h4>JOIN OUR NETWORK </h4> */}
@@ -78,7 +78,7 @@ Or email us @ womeninneuroscienceng@gmail.com</p>
         <AnimatedButton text={'Conact Us'} />
     </div>
     
-    <div className="right-image">
+    <div className="right-image" data-aos="flip-right" data-aos-duration="3000">
         <img src={m7} alt="Avatar"/>
        </div>
     

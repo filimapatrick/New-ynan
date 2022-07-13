@@ -66,7 +66,7 @@ font-size:1.5rem;
     <HomeSubsection3Style>
 
 <div className="left-text">
-    <h2>Become a member of WIN Nigeria</h2>
+    <h2>Become a member of YNAN Nigeria</h2>
     <p className='light-header'>JOIN OUR NETWORK </p>
     <p>Start your registration process here. Click the button to go to our membership form.</p>
     {/* <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a> */}

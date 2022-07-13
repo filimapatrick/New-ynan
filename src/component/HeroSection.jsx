@@ -55,7 +55,7 @@ h1,h4{
   return (
     <HeroSection>
 
-<div className="hero-image">
+<div className="hero-image" data-aos="zoom-in-right">
   <div className="hero-text">
     <h4>Welcome To</h4>
     <h1>Youth Neuroscience Association Of Nigeria</h1>

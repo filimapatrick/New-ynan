@@ -70,12 +70,12 @@ font-size:2rem;
     `
   return (
     <HomeSubsection2>
-   <div className="left-image">
+   <div className="left-image" data-aos="flip-right" data-aos-duration="3000">
     <img src={M4} alt="Avatar"/>
    </div>
 
 
-<div className="right-text">
+<div className="right-text" data-aos="flip-left" data-aos-duration="3000">
 <p className='light-header'>Youth Neuroscience Association Of Nigeria</p>
     <h2>Why Youth Neuroscience, Nigeria?</h2>
     <p> Women are underrepresented and less engaged in STEM disciplines. We need more women on the table to bridge gender inequality.

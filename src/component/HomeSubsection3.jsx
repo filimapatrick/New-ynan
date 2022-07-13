@@ -64,7 +64,7 @@ font-size:1.5rem;
   return (
     <HomeSubsection3Style>
      
-<div className="left-text">
+<div className="left-text" data-aos="flip-left" data-aos-duration="4000" >
     <p className='light-header'>JOIN OUR NETWORK</p>
     <h2>Gain valuable support in your journey</h2>
     <p> Membership is open to women who are pursuing or interested in a career in neuroscience. Click the button below to continue to our registration page..</p>
@@ -72,7 +72,7 @@ font-size:1.5rem;
 <AnimatedButton text={'Become A Member Now'}/>
 </div>
 
-<div className="right-image">
+<div className="right-image" data-aos="slide-left" data-aos-duration="4000">
     <img src={m5} alt="Avatar"/>
    </div>
 

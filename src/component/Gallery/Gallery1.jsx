@@ -21,6 +21,7 @@ function Gallery1() {
  padding-top: 7rem;
  padding-bottom: 5rem;
   overflow: hidden;
+  margin-top:5rem;
 
   h1 {
   font-family: 'Source Sans Pro', sans-serif;
@@ -132,7 +133,7 @@ p {
      
 <div class="wrapper">
   
-<div class="media">
+<div class="media" data-aos="flip-up" data-aos-duration="4000">
 <div class="layer">
     <p>Award given session at the Brain Aware week by Dr.Mrs Ezejiorfor</p>
   </div>
@@ -140,14 +141,14 @@ p {
 </div>
 
 
- <div class="media">
-<div class="layer">
+ <div class="media" data-aos="flip-down" data-aos-duration="4000">
+<div class="layer" >
     <p>Brain Autism Outreach At Port-Harcourt Autism Centre</p>
   </div>
   <img src={A7} alt="" />
 </div>
 
- <div class="media">
+ <div class="media"  data-aos="flip-left" data-aos-duration="4000">
 <div class="layer">
     <p>Photo Session with YNAN student excos</p>
   </div>
@@ -155,14 +156,14 @@ p {
 </div>
 
 
- <div class="media">
+ <div class="media" data-aos="flip-right" data-aos-duration="4000">
 <div class="layer">
     <p>Brain Exhibition with Dr.Mike Oyakhire</p>
   </div>
 
   <img src={A9} alt="" />
 </div>
- <div class="media">
+ <div class="media" data-aos="flip-up" data-aos-duration="4000">
 <div class="layer">
     <p>Brain Perfusion session with Dr.Mrs Ebere
     </p>
@@ -172,14 +173,14 @@ p {
 
   <img src={A11} alt="" />
 </div>
- <div class="media">
+ <div class="media" data-aos="flip-down" data-aos-duration="4000">
 <div class="layer">
     <p>Stapple Chase sessin with the students</p>
   </div>
 
   <img src={A12} alt="" />
 </div>
- <div class="media">
+ <div class="media" data-aos="flip-right" data-aos-duration="4000">
 <div class="layer">
     <p>Award Given session By Dr.Mrs Orish and Dr.Ebere</p>
   </div>
@@ -187,7 +188,7 @@ p {
   
 <img src={A14} alt="" />
 </div>
-   <div class="media">
+   <div class="media" data-aos="flip-left" data-aos-duration="4000">
 <div class="layer">
     <p>Brain perfusion session with Dr.Mrs Orish</p>
   </div>

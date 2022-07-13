@@ -49,7 +49,7 @@ font-size:2rem;
        <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
        </div> */}
        <div className='mentorbutton'>
-       <AnimatedButton  text={'succead Today'}/>
+       <AnimatedButton  text={'succeed Today'}/>
         </div>
      
       </div>

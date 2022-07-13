@@ -15,12 +15,13 @@ function Mind() {
     height:32rem;
     padding-top:3rem;
     padding-bottom:5rem;
+    margin-right:-2rem;
 }
 
     .left-image img{
         height: 100%;
         width: 100%;
-        object-fit: cover;
+        object-fit: contain;
     }
 
 
@@ -70,12 +71,12 @@ font-size:2rem;
     `
   return (
     <HomeSubsection2>
-   <div className="left-image">
+   <div className="left-image" data-aos="zoom-in" data-aos-duration="3000">
     <img src={Orish} alt="Avatar"/>
    </div>
 
 
-<div className="right-text">
+<div className="right-text" data-aos="zoom-out" data-aos-duration="3000">
 <h2>Mind BEHIND YNAN</h2>
 <p className='light-header'>DR.MRS.CN ORISH</p>
    

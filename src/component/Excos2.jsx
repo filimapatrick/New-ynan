@@ -330,4 +330,177 @@ padding-bottom:4rem;
 
 }
 
+
+
+
+
+@media screen and (max-width: 375px) {
+  .light-header{
+ 
+ color:#aaaaaa;
+ font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+
+} 
+
+h2{
+    color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+  }
+.container{
+    display:flex;
+
+flex-wrap:wrap;
+justify-content:center;
+padding-bottom:4rem;
+}
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.card {
+	position: relative;
+  transition: all .5s ease-in;
+  width:20rem;
+  height: 24rem;
+  margin:2rem;
+
+}
+
+
+.card__image {
+  display: block;
+  width: 100%;
+  height: 24rem;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 24rem;
+  width: 18rem;
+  opacity: 0;
+  visibility: none;
+  transition: .5s ease;
+  background-color: #393839;
+}
+
+.card:hover .card__overlay {
+  opacity: 1;
+}
+
+.overlay__text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 280px) {
+  .light-header{
+ 
+ color:#aaaaaa;
+ font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:1.5rem;
+
+} 
+
+h2{
+    color:black;
+  font-family: 'Bodoni Moda', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Playfair Display', serif;
+font-size:2rem;
+  }
+.container{
+    display:flex;
+
+flex-wrap:wrap;
+justify-content:center;
+padding-bottom:4rem;
+}
+
+
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.card {
+	position: relative;
+  transition: all .5s ease-in;
+  width:20rem;
+  height: 24rem;
+  margin:2rem;
+
+}
+
+
+.card__image {
+  display: block;
+  width: 100%;
+  height: 24rem;
+}
+
+.card__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 24rem;
+  width: 12rem;
+  opacity: 0;
+  visibility: none;
+  transition: .5s ease;
+  background-color: #393839;
+}
+
+.card:hover .card__overlay {
+  opacity: 1;
+}
+
+.overlay__text {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+}
+
 `
