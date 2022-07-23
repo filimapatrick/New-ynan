@@ -11,6 +11,7 @@ const Navbarmenu = () => {
   AOS.init();
     const [isMenu, setisMenu] = useState(false);
     const [isResponsiveclose, setResponsiveclose] = useState(false);
+    // const [toggle, setToggle] = useState(false);
     const toggleClass = () => {
       setisMenu(isMenu === false ? true : false);
       setResponsiveclose(isResponsiveclose === false ? true : false);
@@ -66,8 +67,32 @@ const Navbarmenu = () => {
                     <li  className="menu-item" >
                         <NavLink exact activeClassName='is-active' onClick={toggleClass} to={`/`}> Home </NavLink> 
                     </li>
+
+
+
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li>
-                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/award`}> Award </NavLink> </li>
+
+
+                    {/* <li className="menu-item " ><NavLink  activeClassName='is-active' onClick={()=>setToggle(!toggle)}>drop down</NavLink> </li>
+               {
+                toggle && (
+                  <ul>
+                    <li>Show</li>
+                    <li>Only When</li>
+                    <li>toggle === true</li>
+                  </ul>
+                )
+               } */}
+
+                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Award <FiChevronDown /> </Link>
+                        <ul className={boxClassSubMenu.join(' ')} > 
+                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/events`}> Yearly Award  </NavLink> </li>
+                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/blogCard`}> Eerebor</NavLink> </li>
+                        </ul>
+                    </li> */}
+
+
+
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mentorship`}> Mentorship </NavLink> </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Events <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
@@ -76,7 +101,6 @@ const Navbarmenu = () => {
                         </ul>
                     </li>
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/gallery`}> Gallery </NavLink> </li>
-
                     </ul>
 
 
