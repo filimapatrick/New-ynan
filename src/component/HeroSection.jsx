@@ -8,6 +8,9 @@ function HeroSection() {
 height: 70rem;
   margin-top: 5rem;
   font-family: Arial, Helvetica, sans-serif;
+ width: auto;
+ overflow-x: hidden;
+ overflow: hidden;
 
   .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./7Saf.gif");
@@ -16,6 +19,7 @@ height: 70rem;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  overflow-x: hidden;
 }
 
 .hero-text {

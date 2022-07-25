@@ -6,6 +6,7 @@ import AboutStory from '../component/About/AboutStory'
 import AboutVision from '../component/About/AboutVision'
 import FooterFour from '../component/About/FooterFour'
 import MemberShip from '../component/About/MemberShip'
+import Footer from '../component/Footer'
 
 function AboutPage() {
   return (
@@ -16,7 +17,8 @@ function AboutPage() {
    <MemberShip/>
    {/* <AboutActivities/> */}
    <AboutContact/>
-   <FooterFour/>
+   {/* <FooterFour/> */}
+   <Footer/>
     </div>
   )
 }

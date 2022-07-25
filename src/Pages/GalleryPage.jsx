@@ -16,7 +16,7 @@ function GalleryPage() {
         <Gallery4/>
         <Gallery5/>
          {/* <GridGallery/> */}
-        <FooterFour/>
+        {/* <FooterFour/> */}
     </div>
   )
 }

@@ -11,6 +11,8 @@ import EventPage from './Pages/EventPage';
 import BlogCard from './component/BlogCard';
 import Navbarmenu from './component/Navbar2.jsx/Navbar';
 // import Navbar from './component/Navbar2.jsx/Navbar';
+// import Nav from './component/Nav';
+import './App.css';
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
       {/* <NavBar/> */}
       {/* <Navbar/> */}
       {/* <Navbar/> */}
+      {/* <Nav/> */}
    
     <Routes>
       <Route path="/" element={<HomePage/>}/>

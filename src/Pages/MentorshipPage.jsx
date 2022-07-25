@@ -11,6 +11,7 @@ import ImageSlider from '../component/Mentorship/Slider';
 import FooterFour from '../component/About/FooterFour';
 // import Excos2 from '../component/Excos2';
 import Mind from '../component/Mentorship/Mind';
+import Footer from '../component/Footer';
 
 function MentorshipPage() {
   return (
@@ -23,8 +24,10 @@ function MentorshipPage() {
         <MentorshipSection3/>
         <MentorshipSection5/>
         <MentorshipSection6/>
+  
         <MentorshipSection4/>
-        <FooterFour/>
+        {/* <FooterFour/> */}
+        <Footer/>
     </div>
   )
 }

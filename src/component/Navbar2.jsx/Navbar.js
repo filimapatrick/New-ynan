@@ -161,14 +161,14 @@ a:hover{
 body {
   margin: auto;
   padding: 0px;
-  overflow-x: hidden;
+
   background-repeat: repeat;
   font-family: 'Inter', sans-serif;
   display: grid;
 }
 .container {
 
-  width: 100%;
+  /* width: 100%; */
 	padding-right:15px;
 	padding-left:15px;
 	margin-right:auto;
