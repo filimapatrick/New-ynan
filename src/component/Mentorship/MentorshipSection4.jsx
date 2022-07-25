@@ -53,11 +53,11 @@ font-size:2rem;
         
    
     
-    <div className="right-image" data-aos="slide-right" data-aos-duration="4000">
+    <div className="right-image" >
         <img src={m9} alt="Avatar"/>
        </div>
 
-       <div className="left-text" data-aos="slide-left" data-aos-duration="4000">
+       <div className="left-text" >
         <h2>WIN Mentors Transforms Your Vision into Creative Results</h2>
         <AnimatedButton text={'Become A mentee'}/>
         <AnimatedButton text={'Become A  Mentor'}/>

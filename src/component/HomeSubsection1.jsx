@@ -68,7 +68,7 @@ font-size:2rem;
     <HomeStyle>
      
 
-<div className="parent-wrapper" data-aos="zoom-in" data-aos-duration="4000"> 
+<div className="parent-wrapper" > 
 <div class="container">
   <img src={mentor1} alt="Avatar" class="image"/>
   <div class="overlay">

@@ -71,12 +71,12 @@ font-size:2rem;
     `
   return (
     <HomeSubsection2>
-   <div className="left-image" data-aos="zoom-in" data-aos-duration="3000">
+   <div className="left-image" >
     <img src={Orish} alt="Avatar"/>
    </div>
 
 
-<div className="right-text" data-aos="zoom-out" data-aos-duration="3000">
+<div className="right-text" >
 <h2>Mind BEHIND YNAN</h2>
 <p className='light-header'>DR.MRS.CN ORISH</p>
    
