@@ -54,21 +54,21 @@ font-size:2rem;
     <div className='container'>
       <div className='logo' ><MdOutlineGrass size={50}/> </div>
       <div className='title'>Nuture</div>
-      <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
+      <p>Get vital peer assistance from those who have successfully developed careers in neuroscience.</p>
     </div>
 
 
     <div className='container'>
       <div className='logo' ><MdOutlineSportsKabaddi size={50}/> </div>
       <div className='title'>Network</div>
-      <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
+      <p> Make new friends. Gain access to local and worldwide chances to grow yourself.</p>
     </div>
 
 
     <div className='container'>
       <div className='logo' ><MdOutlineLightbulb size={50}/></div>
       <div className='title'>Inspiration</div>
-      <p> The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element t</p>
+      <p> You are free to be anyone you choose to be. You can reach your career objectives... with YNAN's help, of course!</p>
     </div>
 
 

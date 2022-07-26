@@ -67,7 +67,7 @@ font-size:1.5rem;
 <div className="left-text" >
     <p className='light-header'>JOIN OUR NETWORK</p>
     <h2>Gain valuable support in your journey</h2>
-    <p> Membership is open to women who are pursuing or interested in a career in neuroscience. Click the button below to continue to our registration page..</p>
+    <p>Men and women who are pursuing or interested in a career in neuroscience are welcome to join. To proceed to our signup page, click the button below.</p>
 {/* <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a> */}
 <AnimatedButton text={'Become A Member Now'}/>
 </div>

@@ -78,9 +78,7 @@ font-size:2rem;
 <div className="right-text" >
 <p className='light-header'>Youth Neuroscience Association Of Nigeria</p>
     <h2>Why Youth Neuroscience, Nigeria?</h2>
-    <p> Women are underrepresented and less engaged in STEM disciplines. We need more women on the table to bridge gender inequality.
-
-To this effect, there is a need for a formal and impact-oriented structure that provides much needed guidance for budding female neuroscientists.</p>
+    <p>Youths are underrepresented in neuroscience fields and are less engaged in them. We need more energetic young people at the table. To that end, a formal and impact-oriented structure that provides much-needed guidance for aspiring young neuroscientists is required.</p>
 {/* <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a> */}
 </div>
     </HomeSubsection2>

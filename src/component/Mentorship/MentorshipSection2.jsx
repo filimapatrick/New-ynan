@@ -56,7 +56,7 @@ font-size:2rem;
         <h2>YNAN Mentors Transforms Your Vision into Creative Results</h2>
         <p>We believe every dream is valid and we are committed to helping you achieve your goals and aspirations in neuroscience. We connect you to seasoned and accomplished neuroscientists for guidance and support in building your career and academic journey.</p>
           <h2>Start your Mentorship Application</h2>
-        <AnimatedButton text={'Application Now'}/>
+        <AnimatedButton text={'Apply Now'}/>
         {/* <h4>JOIN OUR NETWORK </h4>
         <p>Start your registration process here. Click the button to go to our membership form.</p> */}
     </div>

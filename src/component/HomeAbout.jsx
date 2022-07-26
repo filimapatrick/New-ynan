@@ -38,9 +38,7 @@ font-size:2rem;
 <div className="text" data-aos="fade-in">
     <p className='light-header'>Youth Neuroscience Association Of Nigeria</p>
 <h2>Who We Are</h2>
-<p>Women in neuroscience, Nigeria is a growing network of female African neuroscientists who are working to inspire and provide mentor-ship and access to opportunities for more women who are interested in a career in neuroscience and STEM disciplines.
-
-We want to equip women scientists to pursue successful careers in neuroscience and inspire the next generation of women in the STEM discipline of neuroscience.</p>
+<p> We are a non-profit organization aimed at advancing research education and awareness of Neuroscience among Nigerian youth and students</p>
 </div>
 
 

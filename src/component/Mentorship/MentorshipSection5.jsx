@@ -43,8 +43,8 @@ font-size:2rem;
     <MentorshipSection5>
       
       <div className='container'>
-        <h2>WIN Mentorship Program</h2>
-        <p>Women have many brilliant crops of ideas, but no vehicle to transport these ideas into reality. The WIN Mentorship program helps bridge that gap and guide ambitious women to have a fulfilling career in science and neuroscience in particular.</p>
+        <h2>YNAN Mentorship Program</h2>
+        <p>YNAN have a plethora of amazing ideas but no means of bringing them to fruition. The YNAN Mentorship program bridges that gap by guiding motivated young people toward a rewarding career in neuroscience.</p>
        {/* <div className='mentorbutton'>
        <a class="btn btn--lg-3 btn-primary text-white shadow--primary-2 rounded-50" href="#">Learn More</a>
        </div> */}

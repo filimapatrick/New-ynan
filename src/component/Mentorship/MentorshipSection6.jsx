@@ -67,22 +67,22 @@ font-size:1.5rem;
 <div className='wrapper'>
     <div className='container'>
       <div className='logo' ><MdOutlineGrass size={80}/> </div>
-      <div className='title'>Nuture</div>
-      <p className='light-header'>Teamwork makes the dream work, and together we achieve more. . . because women of equality support each other</p>
+      {/* <div className='title'>Nuture</div> */}
+      <p className='light-header'>Teamwork makes the dream a reality, and together we achieve more... because outstanding scientists help one another.</p>
     </div>
 
 
     <div className='container'>
       <div className='logo' ><MdOutlineSportsKabaddi size={80}/> </div>
-      <div className='title'>Network</div>
-      <p className='light-header'> Behind every successful woman is a tribe of other successful women who have her back</p>
+      {/* <div className='title'>Network</div> */}
+      <p className='light-header'> Every successful man is supported by a tribe of others.</p>
     </div>
 
 
     <div className='container'>
       <div className='logo' ><MdOutlineLightbulb size={80}/></div>
-      <div className='title'>Inspiration</div>
-      <p className='light-header'> Join this powerful women to rock the world of neuroscience and make a difference!
+      {/* <div className='title'>Inspiration</div> */}
+      <p className='light-header'> Join this great group and make a difference in the field of neuroscience!
 
 </p>
     </div>

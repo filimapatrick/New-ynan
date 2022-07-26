@@ -58,7 +58,7 @@ font-size:2rem;
        </div>
 
        <div className="left-text" >
-        <h2>WIN Mentors Transforms Your Vision into Creative Results</h2>
+        <h2>YNAN Mentors Transforms Your Vision into Creative Results</h2>
         <AnimatedButton text={'Become A mentee'}/>
         <AnimatedButton text={'Become A  Mentor'}/>
         {/* <h4>JOIN OUR NETWORK </h4>
