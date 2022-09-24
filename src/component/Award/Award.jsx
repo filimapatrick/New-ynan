@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import SecondaryButton from '../SecondaryButton';
 
 
-function AboutHero() {
+function AwardHero() {
     const AboutHero = styled.div ` 
-height: 70rem;
+/* height: 70rem; */
   margin-top: 5rem;
   font-family: Arial, Helvetica, sans-serif;
 
@@ -37,8 +37,8 @@ h1{
 
 <div className="hero-image" div data-aos="zoom-in">
   <div className="hero-text">
-    <h1>About Us</h1>
-    <p>YNAN is open to youth , undergraduate basic medical and health science students ,other science students who have passion of crafting careers in Neurosçience.</p>
+    <h1>Award</h1>
+    {/* <p>YNAN is open to youth , undergraduate basic medical and health science students ,other science students who have passion of crafting careers in Neurosçience.</p> */}
     {/* <button>Empowering Youth</button> */}
     <SecondaryButton text={'Join Us'}/>
   
@@ -49,4 +49,4 @@ h1{
   )
 }
 
-export default AboutHero
+export default AwardHero

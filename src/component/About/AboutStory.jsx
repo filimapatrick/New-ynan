@@ -40,6 +40,28 @@ function AboutStory() {
         {/* <!-- Feature Content --> */}
         <div class="row align-items-center justify-content-center">
           <div class="col-lg-6 col-md-12">
+
+
+
+
+          <div class="col-lg-6 col-md-12">
+            <div class="feature-right" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
+              {/* <!-- Feature List --> */}
+              <h6 class="section-title__sub-heading" data-aos="fade-up" data-aos-duration="500" data-aos-once="true" style={{color:'green'}}>Our Mission</h6>
+              <ul class="feature-content--l3__list list-unstyled">
+              <li>To encourage youth participation in Brain Awareness Week programs.</li>
+                <li> To encourage participation in research and  paper presentation during conferences and also publish review articles in IYNA journal.</li>
+                <li>To encourage student to particpate in brain bee orgarnization. </li>
+ 
+
+                
+                  </ul>
+                  </div>
+                  </div>
+
+        
+
+
             <div class="feature-content--l3__image mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
               <img class="w-100" src={B3} alt="" />
             </div>
@@ -58,6 +80,13 @@ function AboutStory() {
                 <li>To develop and advance collaboration between young scientist, neuro-practitioners and international organizations. </li>
                 <li>To encourage excellence through ECO awards for outstanding students.</li>
                 <li>To encourage youth participation in Brain Awareness Week programs. </li>
+
+
+                <li>To encourage and impact  primary  and high school students the knowledge of neuroscience by organizing outreaches, seminars, and other educative activities which can enlighten them more about neuroscience. </li>
+                <li>To develop local and international collaboration between young scientist, neuro-practitioners and international organizations. </li>
+                <li>To encourage excellence through ECO awards for outstanding students.</li>
+                <li>To encourage students  to  publish review articles in IYNA journal. </li>
+               
               </ul>
               
             </div>

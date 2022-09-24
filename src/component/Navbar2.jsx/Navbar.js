@@ -73,27 +73,14 @@ const Navbarmenu = () => {
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/About`}> About </NavLink> </li>
 
 
-                    {/* <li className="menu-item " ><NavLink  activeClassName='is-active' onClick={()=>setToggle(!toggle)}>drop down</NavLink> </li>
-               {
-                toggle && (
-                  <ul>
-                    <li>Show</li>
-                    <li>Only When</li>
-                    <li>toggle === true</li>
-                  </ul>
-                )
-               } */}
-
-                    {/* <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Award <FiChevronDown /> </Link>
-                        <ul className={boxClassSubMenu.join(' ')} > 
-                            <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/events`}> Yearly Award  </NavLink> </li>
-                            <li><NavLink onClick={toggleClass} activeClassName='is-active' to={`/blogCard`}> Eerebor</NavLink> </li>
-                        </ul>
-                    </li> */}
 
 
 
                     <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/mentorship`}> Mentorship </NavLink> </li>
+
+                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/membership`}> Membership </NavLink> </li>
+
+                    <li className="menu-item " ><NavLink onClick={toggleClass} activeClassName='is-active' to={`/award`}> Award </NavLink> </li>
                     <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to="#"> Events <FiChevronDown /> </Link>
                         <ul className={boxClassSubMenu.join(' ')} > 
                             <li> <NavLink onClick={toggleClass} activeClassName='is-active'  to={`/events`}> activities </NavLink> </li>
@@ -331,6 +318,7 @@ li {
 .header__middle__logo img{
   max-width: 207px;
   margin: 17px 0 0 0;
+ 
 }
 
 

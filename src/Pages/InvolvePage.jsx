@@ -13,7 +13,7 @@ function GetinvolvePage() {
 <InvolvedSubsection1/>
 <InvolvedSubsection3/>
 {/* <Events/> */}
-{/* <FooterFour/> */}
+<FooterFour/>
     </>
   )
 }

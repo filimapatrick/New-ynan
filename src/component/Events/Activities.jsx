@@ -14,7 +14,7 @@ function Activities() {
     <ActivitiesStle>
       <div className='container'>
         <div className="card">
-  <img src={E1} className="card__image"/>
+  <img src={E1} alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>OUTREACHES</h3>
@@ -25,82 +25,82 @@ function Activities() {
 </div>
 
 <div className="card">
-  <img src={E2} className="card__image"/>
+  <img src={E2} alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>SENSITIZATIONS IN ELEMENTARY AND HIGH SCHOOLS</h3>
       <p>With this initiative, our goal is to promote great opportunities for those who seek a career in Neuroscience,by educating them early and providing enlightenment for them about Neuroscience and opportunities available for them.</p>
-      <a href="#" className="button">View Trips</a>
+      {/* <a href="#" className="button">View Trips</a> */}
     </div>
   </div>
 </div>
 
 <div className="card">
-  <img src={E3} className="card__image"/>
+  <img src={E3} alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>BRAINBEE COMPETITIONS</h3>
       <p>With our organization’s mission always in mind, we strive every year to sensitize and prepare high school students for the annual brainbee competitions for eligibility at international competitions.</p>
-      <a href="#" className="button">View Trips</a>
+      {/* <a href="#" className="button">View Trips</a> */}
     </div>
   </div>
 </div>
 
 
 <div className="card">
-  <img src={E4} className="card__image"/>
+  <img src={E4} alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>JOURNAL CLUB MEETINGS</h3>
       <p>Our Undergraduates create time to get to get very familiar with Neuroscience through a bi-weekly Journal club meeting.</p>
-      <a href="#" className="button">View Trips</a>
+      {/* <a href="#" className="button">View Trips</a> */}
     </div>
   </div>
 </div>
 
 
 <div className="card">
-  <img src={E5} className="card__image"/>
+  <img src={E5} alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>WEBINARS</h3>
       <p>At Youth Neuroscience Association of Nigeria, we are dedicated to stepping up our efforts in addressing issues of knowledge gap in Neuroscience across various fields. We conduct bi-monthly webinars with experts presenting Lectures for young Undergraduates across various fields of interest.</p>
-      <a href="#" className="button">View Trips</a>
+      {/* <a href="#" className="button">View Trips</a> */}
     </div>
   </div>
 </div>
 
 
 <div className="card">
-  <img src={E6} className="card__image"/>
+  <img src={E6} alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>BRAIN AWARENESS WEEK CAMPAIGN</h3>
       <p>We join the global community with Dana Foundation to promote the importance of the brain and and Mental health.</p>
-      <a href="#" className="button">View Trips</a>
+      {/* <a href="#" className="button">View Trips</a> */}
     </div>
   </div>
 </div>
 
 
 <div className="card">
-  <img src={E7} className="card__image"/>
+  <img src={E7} alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>ECO AWARDS</h3>
       <p>We award Academic excellence amongst undergraduates who are best at Neuroscience across institutions in Nigeria.</p>
-      <a href="#" className="button">View Trips</a>
+      {/* <a href="#" className="button">View Trips</a> */}
     </div>
   </div>
 </div>
 
 <div className="card">
-  <img src={E8} className="card__image"/>
+  <img src={E8}  alt ='' className="card__image"/>
   <div className="card__overlay">
     <div className="overlay__text">
       <h3>Mountain Trips</h3>
       <p>Plan your next adventure</p>
-      <a href="#" className="button">View Trips</a>
+     
     </div>
   </div>
 </div>
@@ -147,7 +147,7 @@ h3{
 .card {
 	position: relative;
   transition: all .5s ease-in;
-  width:35rem;
+  width:30rem;
   height: 30rem;
   margin:2rem;
  
@@ -173,7 +173,7 @@ h3{
   left: 0;
   right: 0;
   height: 30rem;
-  width: 35rem;
+  width: 30rem;
   opacity: 0;
   visibility: none;
   transition: .5s ease;
