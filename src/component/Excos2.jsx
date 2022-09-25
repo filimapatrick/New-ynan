@@ -292,7 +292,7 @@ padding-bottom:4rem;
 
 
 .card__image {
-  display: block;
+  /* display: block; */
   width: 100%;
   height: 24rem;
 }

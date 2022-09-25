@@ -155,7 +155,7 @@ h3{
 
 
 .card__image {
-  display: block;
+  /* display: block; */
   width: 100%;
   height: 30rem;
   /* margin-bottom:6rem; */
