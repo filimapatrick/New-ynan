@@ -16,7 +16,7 @@ function HomeSubsection3() {
     
 
 .right-image{
-    width:40rem;
+    width:38rem;
     height:32rem;
    padding-bottom:2rem;
 }
@@ -29,7 +29,7 @@ function HomeSubsection3() {
 
 
 .left-text{
-    width:40rem;
+    width:38rem;
     height:30rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     text-align:center;

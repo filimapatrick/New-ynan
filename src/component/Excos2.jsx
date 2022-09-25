@@ -172,7 +172,7 @@ font-size:2rem;
  
  
 .container{
-    display:flex;
+    display:flex !important;
 
 flex-wrap:wrap;
 justify-content:center;
@@ -192,15 +192,15 @@ h3{
 .card {
 	position: relative;
   transition: all .5s ease-in;
-  width:20rem;
-  height: 25rem;
+  width:20rem !important;
+  height: 25rem !important;
   margin:2rem;
  
 }
 
 
 .card__image {
-  display: block;
+
   width: 100%;
   height: 25rem;
   /* margin-bottom:6rem; */
