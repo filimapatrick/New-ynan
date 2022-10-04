@@ -3,6 +3,7 @@ import { useState,useEffect } from 'react';
 import styled from 'styled-components';
 import {db} from '../../firebase-config';
 import {collection,getDocs,addDoc} from 'firebase/firestore';
+import {Link} from 'react-router-dom'
 
 function Login() {
     const LoginStyle = styled.div` 
@@ -16,6 +17,7 @@ function Login() {
   background-size: cover;
   height: 100%; 
     letter-spacing: 0.5px;
+  
 
     form h3{
     font-size: 32px;
@@ -66,6 +68,7 @@ button{
     padding: 50px 35px;
     margin-bottom:2rem;
     width:30rem;
+    margin-top:3rem;
  }
 
 
@@ -115,14 +118,14 @@ button{
         <input type="password" placeholder="Password" id="password"/>
         <br/>
 
-        <h2>Add Image:</h2>
+        <p>Add Image:</p>
             <input type="file" onChange={handleChange} />
-            <img src={file} />
+            <img src={file} style={{height:'2rem'}} />
             <br/>
         <label for="university">University</label>
         <input type="text" placeholder="university" id="university"/>
         <button>Sign Up Here</button>
-      
+      <p> Already Have An account? <Link to='/LoginSection'>Sign In Here</Link> </p>
         </form>
 
      </div>
