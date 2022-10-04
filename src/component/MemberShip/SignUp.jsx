@@ -67,20 +67,34 @@ button{
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
     margin-bottom:2rem;
-    width:30rem;
-    margin-top:3rem;
+    /* width:30rem;
+    margin-top:3rem; */
  }
 
 
-
+ @media width and (max-width: 370px) {
+  padding:3rem;
+  margin:2rem;
+form{
+  width:8rem;
+  background-image: url('./7Saf.gif');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+    letter-spacing: 0.5px;
+}
+ }
 
     
     `
 
     const [user, setUser] = useState([]);
     const [newName, setNewName] = useState('');
-    const [newAge, setNewAge] = useState(0);
-    const [surname, setSurname]= useState('');
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [photo, setPhoto]= useState('');
+    const [university, setUniversity]= useState('');
     const usersCollectionRef = collection(db,'Login');
     const [file, setFile] = useState();
  
@@ -88,14 +102,14 @@ button{
       const getUsers = async () =>{
 
         const data = await getDocs(usersCollectionRef);
-        console.log(data)
+        console.log('data25',data)
        setUser(data.docs.map((doc)=>({...doc.data(), id: doc.id})))
       }
       getUsers();
     },[])
 
   const createUser = async () =>{
-    await addDoc(usersCollectionRef, {name:newName, age:newAge})
+    await addDoc(usersCollectionRef, {username:username, password:password,university:university})
   }
   
   function handleChange(e) {
@@ -103,6 +117,9 @@ button{
     setFile(URL.createObjectURL(e.target.files[0]));
 }
 
+function signup(e){
+  e.preventDefault();
+}
 
   return (
     <LoginStyle>
@@ -112,10 +129,23 @@ button{
         <h3>Sign Up Here</h3>
 
         <label for="username">Username</label>
-        <input type="text" placeholder="Email or Phone" id="username"/>
+        <input type="text" 
+        placeholder="Email or Phone" 
+        id="username"
+        onChange={(event)=>{
+          setUsername(event.target.value);
+        }}
+        />
+
         <br/>
         <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password"/>
+        <input type="password" 
+        placeholder="Password" 
+        id="password"
+        onChange={(event)=>{
+          setPassword(event.target.value);
+        }}
+        />
         <br/>
 
         <p>Add Image:</p>
@@ -123,8 +153,12 @@ button{
             <img src={file} style={{height:'2rem'}} />
             <br/>
         <label for="university">University</label>
-        <input type="text" placeholder="university" id="university"/>
-        <button>Sign Up Here</button>
+        <input type="text" placeholder="university" id="university"
+        onChange={(event)=>{
+          setUniversity(event.target.value);
+        }}
+        />
+        <button onClick={createUser}>Sign Up Here</button>
       <p> Already Have An account? <Link to='/LoginSection'>Sign In Here</Link> </p>
         </form>
 

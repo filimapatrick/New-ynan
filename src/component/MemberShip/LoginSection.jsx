@@ -62,11 +62,24 @@ button{
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
     margin-bottom:2rem;
-    width:30rem;
+    margin-top:2rem;
+    /* width:30rem; */
  }
 
 
-
+ @media width and (max-width: 370px) {
+  padding:3rem;
+  margin:2rem;
+form{
+  width:8rem;
+  background-image: url('./7Saf.gif');
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+    letter-spacing: 0.5px;
+}
+ }
 
     
     `
