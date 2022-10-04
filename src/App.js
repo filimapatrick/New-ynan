@@ -11,6 +11,8 @@ import EventPage from './Pages/EventPage';
 import BlogCard from './component/BlogCard';
 import Navbarmenu from './component/Navbar2.jsx/Navbar';
 import AwardPage from './Pages/AwardPage';
+import SignUp from './component/MemberShip/SignUp';
+import LoginSection from './component/MemberShip/LoginSection'
 // import Navbar from './component/Navbar2.jsx/Navbar';
 // import Nav from './component/Nav';
 import './App.css';
@@ -35,6 +37,8 @@ function App() {
       <Route path="/gallery" element={<GalleryPage/>}/>
       <Route path='/events' element={<EventPage/>}/>
       <Route path='/blogCard' element={<BlogCard/>}/>
+      <Route path='/SignUp' element={<SignUp/> }/>
+      <Route path='/LoginSection' element={<LoginSection/>}/>
     </Routes>
     </div>
   );

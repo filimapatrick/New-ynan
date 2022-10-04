@@ -258,9 +258,7 @@ li {
   text-decoration: none;
   margin-top: 33px;
 }
-/* .active{
-  color: #ff1800!important;
-} */
+
 .header__middle__menus span.text {
   position: absolute;
   right: 177px;

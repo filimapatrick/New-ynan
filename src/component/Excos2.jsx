@@ -26,6 +26,26 @@ function Excos2() {
   box-sizing: border-box;
 }
 
+.light-header{
+ 
+   color:#aaaaaa;
+   font-family: 'Bodoni Moda', serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
+  font-size:1.5rem;
+  display:flex;
+  justify-content: center;
+ 
+  } 
+ 
+ h2{
+      color:black;
+    font-family: 'Bodoni Moda', serif;
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Playfair Display', serif;
+ font-size:2rem;
+    } 
+
 h5
 {
   margin:0px;
@@ -168,15 +188,15 @@ opacity:1;
   `
   return (
     <Excos2>
-        <div className='team'>MEET OUR STUDENT TEAM</div>
+        <div className='light-header'>MEET OUR STUDENT TEAM</div>
       <div className='container'> 
    
        <div class="center">
   <div class="property-card">
-    <a href="#">
+    
       <div class="property-image">
       <img src ={E1} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5> Samuel </h5>
       <p>President</p>
@@ -190,19 +210,19 @@ opacity:1;
 
 <div class="center">
   <div class="property-card">
-    <a href="#">
+   
       <div class="property-image">
       <img src ={E2} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5> Rhoda </h5>
       <p>Treasurer</p>
     </div>
-    <a href="#">
+    
       <div class="property-social-icons">
         {/* <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions --> */}
       </div>
-    </a>
+    
   </div>
 </div>
 
@@ -211,29 +231,29 @@ opacity:1;
 
 <div class="center">
   <div class="property-card">
-    <a href="#">
+    
       <div class="property-image">
       <img src ={E3} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5> ALera </h5>
       <p>Secretary</p>
     </div>
-    <a href="#">
+    
       <div class="property-social-icons">
         {/* <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions --> */}
       </div>
-    </a>
+    
   </div>
 </div>
 
 
 <div class="center">
   <div class="property-card">
-    <a href="#">
+    
       <div class="property-image">
         <img src ={E4} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5>Okoli Obinna </h5>
       <p>PR</p>
@@ -246,74 +266,74 @@ opacity:1;
 
 <div class="center">
   <div class="property-card">
-    <a href="#">
+    
       <div class="property-image">
         <img src ={E5} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5> Card Title </h5>
       <p>Lorem Ipsum Dipsum </p>
     </div>
-    <a href="#">
+    
       <div class="property-social-icons">
         {/* <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions --> */}
       </div>
-    </a>
+    
   </div>
 </div>
 
 <div class="center">
   <div class="property-card">
-    <a href="#">
+    
       <div class="property-image">
         <img src ={E6} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5> Card Title </h5>
       <p>Lorem Ipsum Dipsum hortata</p>
     </div>
-    <a href="#">
+  
       <div class="property-social-icons">
         {/* <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions --> */}
       </div>
-    </a>
+    
   </div>
 </div>
 
 <div class="center">
   <div class="property-card">
-    <a href="#">
+    
       <div class="property-image">
         <img src ={E7} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5> Card Title </h5>
       <p>Lorem Ipsum Dipsum hortata.</p>
     </div>
-    <a href="#">
+  
       <div class="property-social-icons">
         {/* <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions --> */}
       </div>
-    </a>
+ 
   </div>
 </div>
 
 
 <div class="center">
   <div class="property-card">
-    <a href="#">
+    
       <div class="property-image">
         <img src ={E8} alt='' />
-      </div></a>
+      </div>
     <div class="property-description">
       <h5> Card Title </h5>
       <p>Lorem Ipsum Dipsum hortata.</p>
     </div>
-    <a href="#">
+    
       <div class="property-social-icons">
         {/* <!-- I would usually put multipe divs inside here set to flex. Some people might use Ul li. Multiple Solutions --> */}
       </div>
-    </a>
+  
   </div>
 </div>
 
